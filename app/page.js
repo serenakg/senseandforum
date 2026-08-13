@@ -9,9 +9,9 @@ import LogoMark from "@/components/LogoMark";
 import { services, archetypes, roster, values, stages } from "@/lib/content";
 
 export const metadata = {
-  title: "Sense & Forum — Service Design for Community-Led Growth",
+  title: "Sense & Forum: Community, Programme and Event Design",
   description:
-    "Sense & Forum redesigns how startups, scale-ups, and organisations actually run, so growth doesn't cost you the people who make it possible.",
+    "Sense & Forum designs programmes, communities and events, built on the Delia Model: our approach to inclusion for everyone.",
 };
 
 export default function Home() {
@@ -20,29 +20,31 @@ export default function Home() {
       <section className="hero">
         <div className="wrap">
           <h1>
-            The <em>Service Design Team</em> Your Business Actually Needs
+            We design <em>programmes, communities and events</em> that work
           </h1>
           <p>
-            Sense &amp; Forum redesigns how startups, scale-ups, and
-            organisations actually run — so growth doesn&rsquo;t cost you the
-            people who make it possible.
+            Built on the Delia Model: our approach to inclusion for
+            everyone. We audit how you engage people, customers or members,
+            then rebuild the architecture that connects them to what
+            you&rsquo;re building. For startups, scale-ups, companies,
+            nonprofits, community organisations and one-off events.
           </p>
           <div className="actions">
             <Pill href="/contact" variant="solid">
-              Book a call
+              Book a discovery call
             </Pill>
-            <Pill href="/how-we-work" variant="ghost">
-              See how we work →
+            <Pill href="/services" variant="ghost">
+              See our services →
             </Pill>
           </div>
 
           <div className="collage" aria-hidden="true">
             <div className="tile coral">Audit + Redesign</div>
-            <div className="tile pink">Workshops</div>
-            <div className="tile mint">Fractional Support</div>
-            <div className="tile yellow">Build-Your-Culture Program</div>
+            <div className="tile pink">Fractional Support</div>
+            <div className="tile mint">Build Your Community</div>
+            <div className="tile yellow">Built on the Delia Model</div>
             <div className="tile cream">The Scale-Up</div>
-            <div className="tile mint">The Corporate</div>
+            <div className="tile mint">One-Off Events</div>
           </div>
         </div>
       </section>
@@ -87,15 +89,16 @@ export default function Home() {
           <LogoMark size={200} color="var(--green)" />
           <div>
             <p>
-              Hey — you&rsquo;re here because engagement is bolted on, not
-              built in. A social page exists. An event happens. But
-              there&rsquo;s no real architecture connecting people to what
-              you&rsquo;re building.
+              You&rsquo;re here because engagement is bolted on, not built
+              in. A social page exists. An event happens. But there&rsquo;s
+              no real architecture connecting people to what you&rsquo;re
+              building.
             </p>
             <p>
-              We audit how you actually run, then redesign it — finance,
-              hiring, comms, rhythm, belonging — so growth doesn&rsquo;t cost
-              you the people who make it possible.
+              We audit how you actually engage people, then redesign it:
+              programmes, communications, events, rhythm and belonging.
+              Built on the Delia Model, so inclusion is designed in from the
+              start, not added later.
             </p>
             <Pill href="/about" variant="ghost-dark">
               About us →
@@ -142,10 +145,11 @@ export default function Home() {
 
       <section className="directory">
         <div className="wrap">
-          <h2>Freelancer directory</h2>
+          <h2>Our team</h2>
           <p className="lede">
-            The specialists we bring in project by project. Placeholder
-            roster — profiles go live as the bench is re-engaged.
+            A small core team, extended by the specialists we bring in
+            project by project. Placeholder roster: profiles go live as the
+            bench is re-engaged.
           </p>
           <div className="roster">
             {roster.map((slot, i) => (
@@ -163,10 +167,10 @@ export default function Home() {
 
       <section className="cta">
         <h2>
-          Ready to build <em>differently</em>?
+          Ready to build <em>this properly?</em>
         </h2>
         <Pill href="/contact" variant="solid-green">
-          Get in touch
+          Book a discovery call
         </Pill>
       </section>
     </>

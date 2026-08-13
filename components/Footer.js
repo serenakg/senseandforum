@@ -6,12 +6,12 @@ export default function Footer() {
       <div style={{ marginBottom: 14 }}>
         <Logo chip />
       </div>
-      <div>Service design for businesses ready to build differently.</div>
+      <div>We design programmes, communities and events people want to be part of.</div>
       <nav className="footer-links" aria-label="Footer">
         <a href="/about">About</a>
         <a href="/services">Services</a>
         <a href="/how-we-work">How We Work</a>
-        <a href="/freelancers">Freelancers</a>
+        <a href="/team">Team</a>
         <a href="/contact">Contact</a>
       </nav>
       <div style={{ opacity: 0.7, fontSize: 12 }}>

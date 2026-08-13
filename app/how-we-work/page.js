@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "How We Work",
   description:
-    "The Sense & Forum method — Audit, Redesign, Implement, Prove It — plus the three patterns we keep solving for across scale-ups, corporates, and startups.",
+    "The Sense & Forum method: Audit, Redesign, Implement, Prove It. Plus the three patterns we keep solving for across scale-ups, community organisations, and one-off events.",
   path: "/how-we-work",
 });
 
@@ -18,8 +18,9 @@ export default function HowWeWorkPage() {
         eyebrow="Our method"
         title="Four stages, one architecture"
       >
-        Audit, Redesign, Implement, Prove It — the same method whether
-        we&rsquo;re fixing one programme or rebuilding how you run.
+        Audit, Redesign, Implement, Prove It. The same method whether
+        we&rsquo;re fixing one programme or building a community from
+        scratch.
       </PageHero>
 
       <section className="section wrap">
@@ -66,7 +67,7 @@ export default function HowWeWorkPage() {
           See what this looks like for <em>your team</em>
         </h2>
         <Pill href="/contact" variant="solid-green">
-          Book a call
+          Book a discovery call
         </Pill>
       </section>
     </>

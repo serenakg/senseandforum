@@ -40,7 +40,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} noValidate>
       {status === "success" && (
         <div className="form-status success" role="status">
-          Thanks — we&rsquo;ll be in touch within two business days.
+          Thanks. We&rsquo;ll be in touch within two business days.
         </div>
       )}
       {status === "error" && (

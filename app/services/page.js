@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Services",
   description:
-    "Four ways to work with Sense & Forum — Audit + Redesign, Change-Making Workshops, Fractional Support, and the Build-Your-Culture Program.",
+    "Three ways to work with Sense & Forum: Community/Engagement Audit + Redesign, Fractional Community/Growth Support, and Build Your Community, Programme or Event.",
   path: "/services",
 });
 
@@ -19,7 +19,7 @@ export default function ServicesPage() {
         eyebrow="What we offer"
         title="So how can Sense & Forum support you?"
       >
-        Four ways in, depending on how much you already know and how fast
+        Three ways in, depending on how much you already know and how fast
         you need to move.
       </PageHero>
 
@@ -52,8 +52,8 @@ export default function ServicesPage() {
           ))}
           <p className="notice" style={{ marginTop: 30 }}>
             Pricing shown is a benchmark estimate based on typical scope, not
-            a fixed quote — every engagement is scoped to the work in front
-            of us.
+            a fixed quote. Every engagement is scoped to the work in front of
+            us.
           </p>
         </div>
       </section>
@@ -63,7 +63,7 @@ export default function ServicesPage() {
           Not sure which one you need<em>?</em>
         </h2>
         <Pill href="/contact" variant="solid-green">
-          Talk it through with us
+          Book a discovery call
         </Pill>
       </section>
     </>

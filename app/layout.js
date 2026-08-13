@@ -20,18 +20,20 @@ const poppins = Poppins({
 
 const siteUrl = "https://senseandforum.com";
 
+const siteTitle = "Sense & Forum: Community, Programme and Event Design";
+const siteDescription =
+  "Sense & Forum designs programmes, communities and events, built on the Delia Model: our approach to inclusion for everyone. For startups, scale-ups, companies, nonprofits, community organisations and one-off events.";
+
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Sense & Forum — Service Design for Community-Led Growth",
+    default: siteTitle,
     template: "%s | Sense & Forum",
   },
-  description:
-    "Sense & Forum is a service design agency that redesigns how startups, scale-ups, and organisations run, so growth doesn't cost you the people who make it possible.",
+  description: siteDescription,
   openGraph: {
-    title: "Sense & Forum — Service Design for Community-Led Growth",
-    description:
-      "Sense & Forum is a service design agency that redesigns how startups, scale-ups, and organisations run, so growth doesn't cost you the people who make it possible.",
+    title: siteTitle,
+    description: siteDescription,
     url: siteUrl,
     siteName: "Sense & Forum",
     images: [
@@ -42,14 +44,13 @@ export const metadata = {
         alt: "Sense & Forum",
       },
     ],
-    locale: "en_US",
+    locale: "en_GB",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sense & Forum — Service Design for Community-Led Growth",
-    description:
-      "Sense & Forum is a service design agency that redesigns how startups, scale-ups, and organisations run, so growth doesn't cost you the people who make it possible.",
+    title: siteTitle,
+    description: siteDescription,
     images: ["/brand/og-image.png"],
   },
 };

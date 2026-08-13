@@ -5,22 +5,18 @@ import { roster } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Freelancer Directory",
+  title: "Team",
   description:
-    "The specialists Sense & Forum brings in project by project — a placeholder roster, ready to go live as the bench is re-engaged.",
-  path: "/freelancers",
+    "A small core team, powered by a bench of specialist freelancers we bring in project by project.",
+  path: "/team",
 });
 
-export default function FreelancersPage() {
+export default function TeamPage() {
   return (
     <>
-      <PageHero
-        bg="mint"
-        eyebrow="The bench"
-        title="Freelancer directory"
-      >
-        The specialists we bring in project by project, on top of the core
-        team. This roster is a placeholder — no bench members are named
+      <PageHero bg="mint" eyebrow="Core team, powered by freelancers" title="Our team">
+        A small core team, extended by specialists we bring in project by
+        project. This roster is a placeholder: no bench members are named
         yet, and full profiles go live as they&rsquo;re re-engaged.
       </PageHero>
 
@@ -29,7 +25,7 @@ export default function FreelancersPage() {
           <p className="notice" style={{ marginBottom: 40 }}>
             Placeholder listing. Each card is built to carry a name, photo,
             short bio, rate band, and availability once a specialist is
-            confirmed — nothing here is a live profile yet.
+            confirmed: nothing here is a live profile yet.
           </p>
           <div className="roster">
             {roster.map((slot, i) => (
