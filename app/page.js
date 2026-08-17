@@ -1,12 +1,7 @@
 import Pill from "@/components/Pill";
 import Label from "@/components/Label";
 import StepCard from "@/components/StepCard";
-import ServiceRow from "@/components/ServiceRow";
-import ArchetypeCard from "@/components/ArchetypeCard";
-import DirectoryCard from "@/components/DirectoryCard";
-import ValueIcon from "@/components/ValueIcon";
-import LogoMark from "@/components/LogoMark";
-import { services, archetypes, roster, values, stages } from "@/lib/content";
+import { homeServices, stages } from "@/lib/content";
 
 export const metadata = {
   title: "Sense & Forum: Community, Programme and Event Design",
@@ -17,43 +12,72 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+      {/* 1. Who we are */}
       <section className="hero">
         <div className="wrap">
           <h1>
-            We design <em>programmes, communities and events</em> that work
+            Sense &amp; Forum is a <em>service design agency</em> for
+            community led growth
           </h1>
-          <p>
-            Built on the Delia Model: our approach to inclusion for
-            everyone. We audit how you engage people, customers or members,
-            then rebuild the architecture that connects them to what
-            you&rsquo;re building. For startups, scale-ups, companies,
-            nonprofits, community organisations and one-off events.
-          </p>
+          <p>Built on the Delia Model: inclusion for everyone.</p>
           <div className="actions">
             <Pill href="/contact" variant="solid">
               Book a discovery call
             </Pill>
-            <Pill href="/services" variant="ghost">
-              See our services →
-            </Pill>
-          </div>
-
-          <div className="collage" aria-hidden="true">
-            <div className="tile coral">Audit + Redesign</div>
-            <div className="tile pink">Fractional Support</div>
-            <div className="tile mint">Build Your Community</div>
-            <div className="tile yellow">Built on the Delia Model</div>
-            <div className="tile cream">The Scale-Up</div>
-            <div className="tile mint">One-Off Events</div>
           </div>
         </div>
       </section>
 
-      <section className="method wrap" aria-labelledby="method-heading">
-        <h2 id="method-heading" className="visually-hidden">
-          How we work
+      {/* 2. What we do */}
+      <section className="services" aria-labelledby="what-we-do-heading">
+        <div className="wrap">
+          <Label>What we do</Label>
+          <h2 id="what-we-do-heading">
+            Three ways to <em>work with us</em>
+          </h2>
+          <div>
+            {homeServices.map((service) => (
+              <div className="svc-row-lite" key={service.number}>
+                <div className="n" aria-hidden="true">
+                  {service.number}
+                </div>
+                <div>
+                  <h3>{service.title}</h3>
+                  <p>{service.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <Pill href="/services" variant="ghost-dark">
+            See the details and pricing →
+          </Pill>
+        </div>
+      </section>
+
+      {/* 3. Who we serve */}
+      <section className="serve" aria-labelledby="who-we-serve-heading">
+        <div className="wrap">
+          <Label onDark>Who we serve</Label>
+          <h2 id="who-we-serve-heading">
+            Startups. Scale-ups. Companies. Nonprofits and community
+            organisations.
+          </h2>
+          <p>Ongoing work or a single event: we work both ways.</p>
+        </div>
+      </section>
+
+      {/* 4. How we do it */}
+      <section className="method wrap" aria-labelledby="how-we-do-it-heading">
+        <Label>How we do it</Label>
+        <h2 id="how-we-do-it-heading" className="visually-hidden">
+          How we do it
         </h2>
-        <Label>How we work</Label>
+        <p className="lede">
+          Audit, then redesign, then implement, then prove it with data.
+          Every engagement runs through the Delia Model: we check who a
+          design leaves out, on purpose or by accident, and fix that as
+          part of the rebuild.
+        </p>
         <div className="steps">
           {stages.map((stage) => (
             <StepCard key={stage.number} number={stage.number} title={stage.title}>
@@ -61,107 +85,26 @@ export default function Home() {
             </StepCard>
           ))}
         </div>
+        <Pill href="/how-we-work" variant="ghost-dark">
+          See the full method →
+        </Pill>
       </section>
 
-      <section className="values" aria-labelledby="values-heading">
+      {/* 5. Why we do it */}
+      <section className="why" aria-labelledby="why-we-do-it-heading">
         <div className="wrap">
-          <h2 id="values-heading" className="visually-hidden">
-            The 4 C&rsquo;s of Sense &amp; Forum
+          <Label>Why we do it</Label>
+          <h2 id="why-we-do-it-heading">
+            Most engagement problems get <em>blamed on content</em>
           </h2>
-          <Label>The 4 C&rsquo;s of Sense &amp; Forum</Label>
-          <div className="value-row">
-            {values.map((value) => (
-              <div key={value.key}>
-                <ValueIcon name={value.key} />
-                <h3>{value.title}</h3>
-                <p>{value.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="intro" aria-labelledby="intro-heading">
-        <div className="wrap">
-          <h2 id="intro-heading" className="visually-hidden">
-            About Sense &amp; Forum
-          </h2>
-          <LogoMark size={200} color="var(--green)" />
-          <div>
-            <p>
-              You&rsquo;re here because engagement is bolted on, not built
-              in. A social page exists. An event happens. But there&rsquo;s
-              no real architecture connecting people to what you&rsquo;re
-              building.
-            </p>
-            <p>
-              We audit how you actually engage people, then redesign it:
-              programmes, communications, events, rhythm and belonging.
-              Built on the Delia Model, so inclusion is designed in from the
-              start, not added later.
-            </p>
-            <Pill href="/about" variant="ghost-dark">
-              About us →
-            </Pill>
-          </div>
-        </div>
-      </section>
-
-      <section className="services">
-        <div className="wrap">
-          <Label>What we offer</Label>
-          <h2>
-            So how can Sense &amp; Forum <em>support you?</em>
-          </h2>
-          <div>
-            {services.map((service) => (
-              <ServiceRow
-                key={service.number}
-                number={service.number}
-                title={service.title}
-                description={service.description}
-                format={service.format}
-                price={service.price}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="proof">
-        <div className="wrap">
-          <h2>
-            Three patterns we keep <em>solving for</em>
-          </h2>
-          <div className="archetypes">
-            {archetypes.map((arch) => (
-              <ArchetypeCard key={arch.tag} tag={arch.tag} title={arch.title}>
-                {arch.summary}
-              </ArchetypeCard>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="directory">
-        <div className="wrap">
-          <h2>Our team</h2>
-          <p className="lede">
-            A small core team, extended by the specialists we bring in
-            project by project. Placeholder roster: profiles go live as the
-            bench is re-engaged.
+          <p>
+            A quiet channel, a fading list, a workshop that fills once and
+            never comes back: most organisations call that a content
+            problem and try to fix it with more posts, more emails, more
+            reminders. It&rsquo;s usually a design problem, specifically
+            who the format quietly excludes. That&rsquo;s what Sense &amp;
+            Forum exists to catch, and to fix.
           </p>
-          <div className="roster">
-            {roster.map((slot, i) => (
-              <DirectoryCard
-                key={slot.role}
-                role={slot.role}
-                status={slot.status}
-                initials={slot.initials}
-                colorIndex={i}
-              />
-            ))}
-          </div>
         </div>
       </section>
 
