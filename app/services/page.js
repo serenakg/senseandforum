@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Services",
   description:
-    "Three ways to work with Sense & Forum: Community/Engagement Audit + Redesign, Fractional Community/Growth Support, and Build Your Community, Programme or Event.",
+    "Four ways to work with Sense & Forum: Community/Engagement Audit + Redesign, Fractional Community/Growth Support, Build Your Community, Programme or Event, and Launch Partner fractional CMO work.",
   path: "/services",
 });
 
@@ -19,7 +19,7 @@ export default function ServicesPage() {
         eyebrow="What we offer"
         title="So how can Sense & Forum support you?"
       >
-        Three ways in, depending on how much you already know and how fast
+        Four ways in, depending on how much you already know and how fast
         you need to move.
       </PageHero>
 

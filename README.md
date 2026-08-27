@@ -1,6 +1,6 @@
 # Sense & Forum
 
-Marketing website for Sense & Forum: we design programmes, communities and events, built on the Delia Model. Built with Next.js (App Router).
+Marketing website for Sense & Forum: we design programmes, communities and events, and step in as senior marketing leadership when needed, built on the Delia Model. Built with Next.js (App Router).
 
 ## Getting started
 
@@ -14,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Pages
 
 - `/` — Home
-- `/services` — Services (Community/Engagement Audit + Redesign, Fractional Community/Growth Support, Build Your Community, Programme or Event)
+- `/services` — Services (Community/Engagement Audit + Redesign, Fractional Community/Growth Support, Build Your Community, Programme or Event, Launch Partner fractional CMO work)
 - `/how-we-work` — Method + case archetypes (secondary page)
 - `/about` — Company story, placeholder team, brand values
 - `/team` — Core team, powered by a bench of specialist freelancers (secondary page, formerly `/freelancers`)
@@ -30,7 +30,8 @@ UK English throughout, "we" voice (never first person "I"), no em dashes or hyph
 
 ## Known placeholders and open questions
 
-- **Wordmark** (`components/Logo.js`) uses the real brand files (`public/brand/logo-reversed.svg`, `logo-black.svg`) supplied by Serena. `LogoMark.js` (ampersand-only mark) and `components/icons.js` (4 C's icons) are still recreated in code pending the original assets.
+- **Wordmark** (`components/Logo.js`) uses the real brand files (`public/brand/logo-reversed.svg`, `logo-black.svg`) supplied by Serena. `LogoMark.js` (ampersand-only mark) is still recreated in code pending the original asset.
+- **4 C's icons**: Celebration, Creativity, and Communication use the real files in `public/brand/icons/`. Community still uses the hand-drawn placeholder in `components/icons.js` — the uploaded file downloaded corrupted (3 bytes short of its declared size) three separate times; needs a re-upload or re-export from Serena. A fifth icon, "Care" (`public/brand/icons/care.webp`), was also uploaded but isn't wired into any value yet — the site only has 4 C's (Community, Celebration, Creativity, Communication). Confirm with Serena whether Care replaces one of the four or is meant to expand the set before using it.
 - **Team names/photos** on `/about` are intentionally withheld.
 - **Team roster** on `/team` is a placeholder — `components/DirectoryCard.js` already accepts `name`, `photo`, `bio`, `rateBand`, and `availability` props for when real profiles are ready.
 - **Pricing** shown throughout is a benchmark estimate, not a fixed quote.

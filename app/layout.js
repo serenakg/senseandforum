@@ -20,9 +20,10 @@ const poppins = Poppins({
 
 const siteUrl = "https://senseandforum.com";
 
-const siteTitle = "Sense & Forum: Community, Programme and Event Design";
+const siteTitle =
+  "Sense & Forum: Service Design and Marketing Leadership";
 const siteDescription =
-  "Sense & Forum designs programmes, communities and events, built on the Delia Model: our approach to inclusion for everyone. For startups, scale-ups, companies, nonprofits, community organisations and one-off events.";
+  "Sense & Forum designs programmes, communities and events, and steps in as senior marketing leadership when you need it. Built on the Delia Model: our approach to inclusion for everyone. For startups, scale-ups, companies, nonprofits, community organisations and one-off events.";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),

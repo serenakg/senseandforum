@@ -4,9 +4,9 @@ import StepCard from "@/components/StepCard";
 import { homeServices, stages } from "@/lib/content";
 
 export const metadata = {
-  title: "Sense & Forum: Community, Programme and Event Design",
+  title: "Sense & Forum: Service Design and Marketing Leadership",
   description:
-    "Sense & Forum designs programmes, communities and events, built on the Delia Model: our approach to inclusion for everyone.",
+    "Sense & Forum designs programmes, communities and events, and steps in as senior marketing leadership when you need it. Built on the Delia Model: our approach to inclusion for everyone.",
 };
 
 export default function Home() {
@@ -16,10 +16,14 @@ export default function Home() {
       <section className="hero">
         <div className="wrap">
           <h1>
-            Sense &amp; Forum is a <em>service design agency</em> for
+            Sense &amp; Forum is a{" "}
+            <em>service design and marketing leadership agency</em> for
             community led growth
           </h1>
-          <p>Built on the Delia Model: inclusion for everyone.</p>
+          <p>
+            Built on the Delia Model: inclusion for everyone. No fluff, no
+            papering over symptoms, we go straight for the design.
+          </p>
           <div className="actions">
             <Pill href="/contact" variant="solid">
               Book a discovery call
@@ -33,8 +37,12 @@ export default function Home() {
         <div className="wrap">
           <Label>What we do</Label>
           <h2 id="what-we-do-heading">
-            Three ways to <em>work with us</em>
+            Four ways to <em>work with us</em>
           </h2>
+          <p className="lede">
+            We design programmes, communities and events, and we step in
+            as senior marketing leadership when you need it.
+          </p>
           <div>
             {homeServices.map((service) => (
               <div className="svc-row-lite" key={service.number}>
@@ -105,6 +113,14 @@ export default function Home() {
             who the format quietly excludes. That&rsquo;s what Sense &amp;
             Forum exists to catch, and to fix.
           </p>
+          <div className="video-embed">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/K6XhMgukAbE"
+              title="Sense & Forum"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          </div>
         </div>
       </section>
 

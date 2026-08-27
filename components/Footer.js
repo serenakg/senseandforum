@@ -6,7 +6,10 @@ export default function Footer() {
       <div style={{ marginBottom: 14 }}>
         <Logo />
       </div>
-      <div>We design programmes, communities and events people want to be part of.</div>
+      <div>
+        We design programmes, communities and events, and step in as
+        marketing leadership when you need it.
+      </div>
       <nav className="footer-links" aria-label="Footer">
         <a href="/about">About</a>
         <a href="/services">Services</a>

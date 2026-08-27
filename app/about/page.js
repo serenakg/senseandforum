@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "About",
   description:
-    "Sense & Forum designs programmes, communities and events: client-facing, external work, built on the Delia Model. Here's our story, our values, and who's building it.",
+    "Sense & Forum designs programmes, communities and events, and steps in as senior marketing leadership: client-facing, external work, built on the Delia Model. Here's our story, our values, and who's building it.",
   path: "/about",
 });
 
@@ -22,7 +22,8 @@ export default function AboutPage() {
   return (
     <>
       <PageHero bg="pink" eyebrow="About us" title="Client-facing work, start to finish">
-        Sense &amp; Forum designs programmes, communities and events.
+        Sense &amp; Forum designs programmes, communities and events, and
+        steps in as senior marketing leadership when you need it.
         That&rsquo;s the whole scope: external, client-facing work, for the
         people your organisation serves.
       </PageHero>
