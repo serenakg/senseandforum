@@ -19,7 +19,7 @@ export default function Nav() {
 
   return (
     <nav className="site-nav" aria-label="Primary">
-      <Logo chip />
+      <Logo />
       <button
         type="button"
         className="nav-toggle"

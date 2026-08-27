@@ -1234,30 +1234,15 @@ button {
   line-height: 1;
 }
 
-.wordmark {
+.logo-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.35em;
-  font-family: var(--font-body);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--coral);
 }
 
-.wordmark .amp {
-  font-family: var(--font-heading);
-  font-style: italic;
-  font-weight: 500;
-  color: var(--pink);
-  text-transform: none;
-  letter-spacing: 0;
-}
-
-.wordmark.on-dark-chip {
-  background: var(--cream);
-  padding: 8px 16px;
-  border-radius: 10px;
+.logo-img {
+  height: 26px;
+  width: auto;
+  display: block;
 }
 
 .visually-hidden {

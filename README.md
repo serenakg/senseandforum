@@ -30,7 +30,7 @@ UK English throughout, "we" voice (never first person "I"), no em dashes or hyph
 
 ## Known placeholders and open questions
 
-- **Brand icons and wordmark** (`components/icons.js`, `Logo.js`, `LogoMark.js`) are recreated in code rather than using the original `sf_logo_*.png` / `icon_*.png` files, which weren't available as files in the build environment. Swap in the real assets by replacing these components with `<img>` tags pointing at the real files.
+- **Wordmark** (`components/Logo.js`) uses the real brand files (`public/brand/logo-reversed.svg`, `logo-black.svg`) supplied by Serena. `LogoMark.js` (ampersand-only mark) and `components/icons.js` (4 C's icons) are still recreated in code pending the original assets.
 - **Team names/photos** on `/about` are intentionally withheld.
 - **Team roster** on `/team` is a placeholder — `components/DirectoryCard.js` already accepts `name`, `photo`, `bio`, `rateBand`, and `availability` props for when real profiles are ready.
 - **Pricing** shown throughout is a benchmark estimate, not a fixed quote.

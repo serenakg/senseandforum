@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="site-footer">
       <div style={{ marginBottom: 14 }}>
-        <Logo chip />
+        <Logo />
       </div>
       <div>We design programmes, communities and events people want to be part of.</div>
       <nav className="footer-links" aria-label="Footer">
