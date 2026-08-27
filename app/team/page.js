@@ -1,31 +1,70 @@
 import PageHero from "@/components/PageHero";
+import Label from "@/components/Label";
 import Pill from "@/components/Pill";
 import DirectoryCard from "@/components/DirectoryCard";
-import { roster } from "@/lib/content";
+import { coreTeam, founderCredentials, roster } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Team",
+  title: "Meet the Team",
   description:
-    "A small core team, powered by a bench of specialist freelancers we bring in project by project.",
+    "The core team behind Sense & Forum, and the story behind founder Serena Gasparini and the Delia Model.",
   path: "/team",
 });
 
 export default function TeamPage() {
   return (
     <>
-      <PageHero bg="mint" eyebrow="Core team, powered by freelancers" title="Our team">
-        A small core team, extended by specialists we bring in project by
-        project. This roster is a placeholder: no bench members are named
-        yet, and full profiles go live as they&rsquo;re re-engaged.
+      <PageHero bg="mint" eyebrow="Who's building it" title="Meet the team">
+        A small core team, extended by the specialists we bring in project
+        by project.
       </PageHero>
 
-      <section className="directory" style={{ paddingTop: 0 }}>
+      <section className="section wrap" style={{ paddingBottom: 0 }}>
+        <div className="team-grid">
+          {coreTeam.map((person) => (
+            <div className="team-card confirmed" key={person.name}>
+              <div className="avatar-placeholder" aria-hidden="true">
+                {person.initials}
+              </div>
+              <div className="role">{person.name}</div>
+              <div className="note">{person.role}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="section wrap">
+        <Label>Meet the founder</Label>
+        <h2>
+          Serena Gasparini: the story behind <em>the Delia Model</em>
+        </h2>
+        <p className="lede">
+          Serena has spent over 20 years in marketing, events and
+          community, building and rebuilding teams, programmes and brands
+          from the ground up. A period of burnout forced a full reset. Out
+          of that rebuild came the Delia Model, the inclusion framework
+          Sense &amp; Forum is built on.
+        </p>
+        <p className="lede">
+          Alongside Sense &amp; Forum, Serena runs a separate fractional
+          CMO practice with a specialism in femtech and women+ brands, her
+          moat. She works more broadly too, with any organisation
+          genuinely building toward inclusion.
+        </p>
+        <ul className="credentials-list">
+          {founderCredentials.map((credential) => (
+            <li key={credential}>{credential}</li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="directory">
         <div className="wrap">
-          <p className="notice" style={{ marginBottom: 40 }}>
-            Placeholder listing. Each card is built to carry a name, photo,
-            short bio, rate band, and availability once a specialist is
-            confirmed: nothing here is a live profile yet.
+          <h2>The extended bench</h2>
+          <p className="lede">
+            Specialists we bring in project by project. Placeholder
+            roster: profiles go live as the bench is re-engaged.
           </p>
           <div className="roster">
             {roster.map((slot, i) => (

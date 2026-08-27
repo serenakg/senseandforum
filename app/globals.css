@@ -1105,6 +1105,40 @@ button {
   border-radius: 50%;
   background: var(--mint);
   margin: 0 auto 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--green);
+}
+
+.team-card.confirmed {
+  border-style: solid;
+  border-color: var(--green);
+}
+
+.credentials-list {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+  max-width: 640px;
+}
+
+.credentials-list li {
+  font-size: 14.5px;
+  line-height: 1.5;
+  padding-left: 22px;
+  position: relative;
+}
+
+.credentials-list li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: var(--coral);
+  font-weight: 700;
 }
 
 .team-card .role {

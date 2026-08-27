@@ -17,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000).
 - `/services` — Services (Community/Engagement Audit + Redesign, Fractional Community/Growth Support, Build Your Community, Programme or Event, Launch Partner fractional CMO work)
 - `/how-we-work` — Method + case archetypes (secondary page)
 - `/about` — Company story, placeholder team, brand values
-- `/team` — Core team, powered by a bench of specialist freelancers (secondary page, formerly `/freelancers`)
+- `/team` — Meet the Team: real named core team (Serena, Elenia, Mai, Chanelle), a Meet the Founder section on Serena, plus the extended freelancer bench (formerly `/freelancers`)
 - `/contact` — Discovery call / contact form (posts to `/api/contact`, currently a placeholder endpoint)
 
 ## Design system
@@ -39,6 +39,7 @@ UK English throughout, "we" voice (never first person "I"), no em dashes or hyph
 - **Women-specific positioning** is deliberately excluded from all copy pending resolution of whether that lens belongs to Sense & Forum or to Serena's personal brand only. Do not add it without that being resolved first.
 - **Change-Making Workshops** is parked for a future release. It's intentionally absent from this build; don't remove it from planning docs elsewhere.
 - **Delia Model branding on Sense & Forum**: several of Serena's other skill configs (`serena-delia`, `serena-community-design`, `serena-cohort-building`) state "never carry forward Sense & Forum branding" for the DELIA Model™. This build uses the Delia Model as Sense & Forum's core USP per explicit direction, but that conflict is worth a second look.
+- **Meet the Founder vs. "no gendered framing" rule**: the site's own tone brief says no femtech/women+ framing and no personal health disclosures on the agency site, those belong to Serena's personal brand. The same brief then explicitly asked for a Meet the Founder bio mentioning burnout and naming her separate femtech/women+ CMO practice as her "moat." Built as instructed (third person, framed as her separate practice, not Sense & Forum's own service scope), but flagging the tension since it's the kind of call worth Serena double-checking before this goes live.
 
 ## Deploy
 
