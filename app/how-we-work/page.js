@@ -14,7 +14,7 @@ export default function HowWeWorkPage() {
   return (
     <>
       <PageHero
-        bg="mint"
+        bg="lime"
         eyebrow="Our method"
         title="Four stages, one architecture"
       >

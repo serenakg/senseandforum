@@ -12,17 +12,17 @@ export function CommunityIcon({ className }) {
       aria-hidden="true"
       focusable="false"
     >
-      <circle cx="21" cy="17" r="10" stroke="#FCB8CF" strokeWidth="3.2" />
-      <circle cx="42" cy="19" r="9" stroke="#EF614B" strokeWidth="3.2" />
+      <circle cx="21" cy="17" r="10" stroke="#FFB2D9" strokeWidth="3.2" />
+      <circle cx="42" cy="19" r="9" stroke="#FF6600" strokeWidth="3.2" />
       <path
         d="M5,55 C5,40 15,32 25,32 C35,32 45,40 45,55"
-        stroke="#FCB8CF"
+        stroke="#FFB2D9"
         strokeWidth="3.2"
         strokeLinecap="round"
       />
       <path
         d="M27,58 C27,45 36,39 44,39 C52,39 59,45 59,58"
-        stroke="#EF614B"
+        stroke="#FF6600"
         strokeWidth="3.2"
         strokeLinecap="round"
       />

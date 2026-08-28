@@ -12,7 +12,7 @@ export const metadata = buildMetadata({
 export default function ContactPage() {
   return (
     <>
-      <PageHero bg="coral" eyebrow="Book a discovery call" title="Let’s talk">
+      <PageHero bg="hot-pink" eyebrow="Book a discovery call" title="Let’s talk">
         Tell us what you&rsquo;re working on. If it&rsquo;s a fit, we&rsquo;ll
         set up a discovery call.
       </PageHero>
