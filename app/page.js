@@ -1,7 +1,7 @@
 import Pill from "@/components/Pill";
 import Label from "@/components/Label";
 import StepCard from "@/components/StepCard";
-import { homeServices, stages, trustLogos } from "@/lib/content";
+import { homeServices, stages, experienceLogos, clientLogos } from "@/lib/content";
 
 export const metadata = {
   title: "Sense & Forum: Service Design and Marketing Leadership",
@@ -81,7 +81,17 @@ export default function Home() {
             Experience &amp; partnering with
           </p>
           <div className="trust-bar-logos">
-            {trustLogos.map((logo) => (
+            {experienceLogos.map((logo) => (
+              <div className="trust-bar-logo-card" key={logo.name}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={logo.src} alt={logo.name} className="trust-bar-logo" />
+              </div>
+            ))}
+          </div>
+
+          <p className="trust-bar-label trust-bar-label-second">Past clients</p>
+          <div className="trust-bar-logos">
+            {clientLogos.map((logo) => (
               <div className="trust-bar-logo-card" key={logo.name}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={logo.src} alt={logo.name} className="trust-bar-logo" />
