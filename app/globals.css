@@ -1,5 +1,5 @@
 :root {
-  --coral: #ef614b;
+  --coral: #E8603A;
   --pink: #fcb8cf;
   --cream: #f0efea;
   --green: #264e46;
@@ -540,6 +540,63 @@ button {
   .svc-row-lite {
     grid-template-columns: 1fr;
     gap: 8px;
+  }
+}
+
+/* Trust bar */
+.trust-bar {
+  background: var(--cream);
+  padding: 48px 32px;
+  text-align: center;
+}
+
+.trust-bar-label {
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin: 0 0 28px;
+}
+
+.trust-bar-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 20px;
+}
+
+.trust-bar-logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 14px 22px;
+  height: 64px;
+  box-sizing: border-box;
+}
+
+.trust-bar-logo {
+  height: 28px;
+  width: auto;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+@media (max-width: 640px) {
+  .trust-bar-logos {
+    gap: 14px;
+  }
+
+  .trust-bar-logo-card {
+    padding: 10px 16px;
+    height: 52px;
+  }
+
+  .trust-bar-logo {
+    height: 22px;
+    max-width: 96px;
   }
 }
 
