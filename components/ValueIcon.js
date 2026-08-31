@@ -1,6 +1,5 @@
-import { CommunityIcon } from "./icons";
-
 const imageMap = {
+  community: "/brand/icons/community.webp",
   celebration: "/brand/icons/celebration.webp",
   creativity: "/brand/icons/creativity.webp",
   communication: "/brand/icons/communication.webp",
@@ -8,10 +7,6 @@ const imageMap = {
 };
 
 export default function ValueIcon({ name, className = "icon" }) {
-  if (name === "community") {
-    return <CommunityIcon className={className} />;
-  }
-
   const src = imageMap[name];
   if (!src) return null;
 

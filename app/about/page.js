@@ -21,7 +21,7 @@ const teamPlaceholders = [
 export default function AboutPage() {
   return (
     <>
-      <PageHero bg="cream" eyebrow="About us" title="Client-facing work, start to finish">
+      <PageHero bg="canvas" eyebrow="About us" title="Client-facing work, start to finish">
         Sense &amp; Forum designs programmes, communities and events, and
         steps in as senior marketing leadership when you need it.
         That&rsquo;s the whole scope: external, client-facing work, for the

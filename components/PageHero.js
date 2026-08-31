@@ -1,6 +1,6 @@
 import Label from "./Label";
 
-export default function PageHero({ bg = "cream", onDark = false, eyebrow, title, children }) {
+export default function PageHero({ bg = "canvas", onDark = false, eyebrow, title, children }) {
   return (
     <section
       className={`page-hero${onDark ? " on-dark" : ""}`}

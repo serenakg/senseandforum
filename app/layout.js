@@ -1,20 +1,30 @@
-import { Fraunces, Poppins } from "next/font/google";
+import { Lora, Open_Sans, Dancing_Script } from "next/font/google";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-const fraunces = Fraunces({
+const lora = Lora({
   subsets: ["latin"],
   weight: ["500", "600", "700"],
   style: ["normal", "italic"],
-  variable: "--font-fraunces",
+  variable: "--font-lora",
   display: "swap",
 });
 
-const poppins = Poppins({
+const openSans = Open_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-poppins",
+  variable: "--font-open-sans",
+  display: "swap",
+});
+
+// Brand accent font is Mistrully (licensed for personal use only in the
+// uploaded brief). Dancing Script is the brand guide's own stated stand-in
+// until a commercial Mistrully licence is purchased.
+const dancingScript = Dancing_Script({
+  subsets: ["latin"],
+  weight: ["600", "700"],
+  variable: "--font-script",
   display: "swap",
 });
 
@@ -58,7 +68,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${poppins.variable}`}>
+    <html
+      lang="en"
+      className={`${lora.variable} ${openSans.variable} ${dancingScript.variable}`}
+    >
       <body>
         <a className="skip-link" href="#main">
           Skip to content

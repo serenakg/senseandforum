@@ -14,7 +14,7 @@ export default function ServicesPage() {
   return (
     <>
       <PageHero
-        bg="teal"
+        bg="deep-green"
         onDark
         eyebrow="What we offer"
         title="So how can Sense & Forum support you?"
@@ -60,7 +60,7 @@ export default function ServicesPage() {
 
       <section className="cta">
         <h2>
-          Not sure which one you need<em>?</em>
+          Not sure which one you <em>need?</em>
         </h2>
         <Pill href="/contact" variant="solid-green">
           Book a discovery call

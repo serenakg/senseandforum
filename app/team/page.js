@@ -15,7 +15,7 @@ export const metadata = buildMetadata({
 export default function TeamPage() {
   return (
     <>
-      <PageHero bg="lime" eyebrow="Who's building it" title="Meet the team">
+      <PageHero bg="soft-lime" eyebrow="Who's building it" title="Meet the team">
         A small core team, extended by the specialists we bring in project
         by project.
       </PageHero>
