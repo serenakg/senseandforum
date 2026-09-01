@@ -1,4 +1,4 @@
-import { Lora, Open_Sans, Dancing_Script } from "next/font/google";
+import { Lora, Open_Sans, Oooh_Baby } from "next/font/google";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import "./globals.css";
@@ -18,12 +18,9 @@ const openSans = Open_Sans({
   display: "swap",
 });
 
-// Brand accent font is Mistrully (licensed for personal use only in the
-// uploaded brief). Dancing Script is the brand guide's own stated stand-in
-// until a commercial Mistrully licence is purchased.
-const dancingScript = Dancing_Script({
+const ooohBaby = Oooh_Baby({
   subsets: ["latin"],
-  weight: ["600", "700"],
+  weight: ["400"],
   variable: "--font-script",
   display: "swap",
 });
@@ -70,7 +67,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${lora.variable} ${openSans.variable} ${dancingScript.variable}`}
+      className={`${lora.variable} ${openSans.variable} ${ooohBaby.variable}`}
     >
       <body>
         <a className="skip-link" href="#main">

@@ -76,7 +76,7 @@ button {
   top: 0;
   z-index: 100;
   background: var(--hot-pink);
-  color: var(--deep-green);
+  color: #fff;
   padding: 12px 20px;
   font-weight: 600;
   border-radius: 0 0 8px 0;
@@ -120,7 +120,7 @@ button {
 /* Primary CTA */
 .pill-solid {
   background: var(--hot-pink);
-  color: var(--deep-green);
+  color: #fff;
 }
 
 /* Secondary CTA */
@@ -187,7 +187,7 @@ button {
   font-family: var(--font-body);
   border: none;
   background: var(--hot-pink);
-  color: var(--deep-green);
+  color: #fff;
   transition: transform 0.15s ease;
 }
 
@@ -899,7 +899,8 @@ button {
 .proof h2 em {
   color: var(--hot-pink);
   font-family: var(--font-accent);
-  font-weight: 700;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .archetypes {
@@ -1164,7 +1165,8 @@ button {
 .cta h2 em {
   color: var(--hot-pink);
   font-family: var(--font-accent);
-  font-weight: 700;
+  font-style: normal;
+  font-weight: 400;
 }
 
 @media (max-width: 640px) {
