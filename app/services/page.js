@@ -47,11 +47,23 @@ export default function ServicesPage() {
                   <div className="k">Pricing (benchmark)</div>
                   <div className="v">{service.price}</div>
                 </div>
-                <div className="meta-item" style={{ flex: "1 1 260px" }}>
-                  <div className="k">Who it&rsquo;s for</div>
-                  <div className="v" style={{ fontWeight: 500 }}>
-                    {service.whoFor}
-                  </div>
+              </div>
+              <div className="svc-fit">
+                <div>
+                  <h3>This is for you if</h3>
+                  <ul className="svc-fit-list svc-fit-yes">
+                    {service.forYouIf.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3>This isn&rsquo;t for you if</h3>
+                  <ul className="svc-fit-list svc-fit-no">
+                    {service.notForYouIf.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </article>

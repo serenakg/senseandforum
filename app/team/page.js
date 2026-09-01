@@ -32,9 +32,13 @@ export default function TeamPage() {
           Serena Gasparini: the story behind <em>the Delia Model&trade;</em>
         </h2>
         <div className="founder-layout">
-          <div className="avatar-placeholder founder-photo" aria-hidden="true">
-            SG
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/brand/team/serena.jpg"
+            alt="Serena Gasparini"
+            className="founder-photo"
+            style={{ objectFit: "cover" }}
+          />
           <div>
             <p className="lede">
               Serena has spent over 20 years in marketing, events and
