@@ -52,6 +52,36 @@ export default function AboutPage() {
       </section>
 
       <section className="section wrap" style={{ paddingTop: 0 }}>
+        <Label>What sets us apart</Label>
+        <h2>
+          The Delia Model&trade;
+        </h2>
+        <p className="lede">
+          Most growth systems are built for the average user. We build for
+          who gets missed.
+        </p>
+        <p className="lede">
+          Before we design anything, a brand, a community, a campaign, we
+          ask one question: <strong>who does this leave out?</strong> On
+          purpose or by accident, every system excludes someone. We find
+          that gap first, then design around it.
+        </p>
+        <p className="lede">That&rsquo;s people first, not people-pleasing. It means:</p>
+        <ul className="delia-list">
+          <li>
+            We audit before we build: no guessing who your community
+            actually is
+          </li>
+          <li>Inclusion isn&rsquo;t a value statement, it&rsquo;s a design step</li>
+          <li>The fix goes into the rebuild, not a footnote after launch</li>
+        </ul>
+        <p className="lede">
+          It&rsquo;s why our clients don&rsquo;t just grow: they grow with
+          the people who were never going to fit the default.
+        </p>
+      </section>
+
+      <section className="section wrap" style={{ paddingTop: 0 }}>
         <Label>The team</Label>
         <h2>Who&rsquo;s building it</h2>
         <p className="lede">

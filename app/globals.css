@@ -904,6 +904,28 @@ button {
   font-weight: 700;
 }
 
+.delia-list {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  margin: 0 0 26px;
+}
+
+.delia-list li {
+  font-size: 16px;
+  line-height: 1.55;
+  padding-left: 28px;
+  position: relative;
+}
+
+.delia-list li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: var(--bright-orange);
+  font-weight: 700;
+}
+
 .svc-full .meta {
   display: flex;
   flex-wrap: wrap;
