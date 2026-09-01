@@ -22,10 +22,8 @@ export default function AboutPage() {
   return (
     <>
       <PageHero bg="canvas" eyebrow="About us" title="Client-facing work, start to finish">
-        Sense &amp; Forum designs programmes, communities, events and
-        marketing, and steps in as senior marketing leadership when you
-        need it. That&rsquo;s the whole scope: external, client-facing
-        work, for the people your organisation serves.
+        External, client-facing work: programmes, communities, events and
+        marketing, plus senior marketing leadership when you need it.
       </PageHero>
 
       <section className="section wrap">

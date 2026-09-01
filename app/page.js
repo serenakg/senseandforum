@@ -18,6 +18,7 @@ export default function Home() {
       <section className="hero">
         <AccentCircle left="mid-coral" right="hot-pink" className="hero-accent" />
         <div className="wrap">
+          <Label onDark>Service design &amp; marketing leadership</Label>
           <h1>
             Sense &amp; Forum is a{" "}
             <em>service design and marketing leadership agency</em> for

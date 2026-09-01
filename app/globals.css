@@ -46,8 +46,9 @@ h3 {
 h1 em,
 h2 em,
 h3 em {
-  font-style: italic;
-  font-weight: 500;
+  font-family: var(--font-accent);
+  font-style: normal;
+  font-weight: 400;
 }
 
 a {
@@ -703,6 +704,8 @@ button {
   align-items: center;
   width: max-content;
   animation: marquee-scroll 22s linear infinite;
+  position: relative;
+  z-index: 2;
 }
 
 .marquee-item {
@@ -944,9 +947,6 @@ button {
 
 .proof h2 em {
   color: #fff;
-  font-family: var(--font-accent);
-  font-style: normal;
-  font-weight: 400;
 }
 
 .archetypes {
@@ -1194,21 +1194,18 @@ button {
 .cta {
   padding: 100px 32px;
   text-align: center;
-  background: var(--deep-green);
+  background: var(--soft-pink);
 }
 
 .cta h2 {
   font-size: 42px;
   max-width: 640px;
   margin: 0 auto 30px;
-  color: var(--canvas);
+  color: var(--deep-green);
 }
 
 .cta h2 em {
   color: var(--hot-pink);
-  font-family: var(--font-accent);
-  font-style: normal;
-  font-weight: 400;
 }
 
 @media (max-width: 640px) {
