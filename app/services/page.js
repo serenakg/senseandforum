@@ -14,8 +14,7 @@ export default function ServicesPage() {
   return (
     <>
       <PageHero
-        bg="deep-green"
-        onDark
+        bg="hot-pink"
         eyebrow="What we offer"
         title="So how can Sense & Forum support you?"
       >

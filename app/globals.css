@@ -304,7 +304,6 @@ button {
   line-height: 1.65;
   color: var(--canvas);
   opacity: 0.85;
-  max-width: 560px;
   margin: 26px 0 34px;
 }
 
@@ -407,7 +406,6 @@ button {
 .method .lede {
   font-size: 17px;
   line-height: 1.7;
-  max-width: 720px;
   opacity: 0.85;
   margin-bottom: 40px;
 }
@@ -482,21 +480,21 @@ button {
 }
 
 .value-row .icon {
-  height: 56px;
-  width: 56px;
-  margin-bottom: 20px;
+  height: 84px;
+  width: 84px;
+  margin-bottom: 22px;
 }
 
 .value-row h3 {
-  font-size: 17px;
-  margin-bottom: 6px;
+  font-size: 22px;
+  margin-bottom: 8px;
 }
 
 .value-row p {
-  font-size: 13.5px;
+  font-size: 15.5px;
   color: var(--deep-green);
-  opacity: 0.7;
-  line-height: 1.5;
+  opacity: 0.75;
+  line-height: 1.55;
 }
 
 @media (max-width: 1024px) {
@@ -556,7 +554,6 @@ button {
 .services .lede {
   font-size: 17px;
   line-height: 1.6;
-  max-width: 640px;
   opacity: 0.85;
   margin-bottom: 30px;
 }
@@ -767,7 +764,6 @@ button {
 .why p {
   font-size: 18px;
   line-height: 1.7;
-  max-width: 680px;
 }
 
 .video-embed {
@@ -877,7 +873,6 @@ button {
 .svc-full .desc {
   font-size: 16px;
   line-height: 1.65;
-  max-width: 640px;
   margin-bottom: 22px;
   opacity: 0.85;
 }
@@ -936,19 +931,19 @@ button {
 
 /* Proof / archetypes */
 .proof {
-  background: var(--deep-green);
+  background: var(--hot-pink);
   padding: 90px 32px;
 }
 
 .proof h2 {
-  color: var(--canvas);
+  color: var(--deep-green);
   font-size: 36px;
   max-width: 600px;
   margin-bottom: 44px;
 }
 
 .proof h2 em {
-  color: var(--hot-pink);
+  color: #fff;
   font-family: var(--font-accent);
   font-style: normal;
   font-weight: 400;
@@ -961,28 +956,26 @@ button {
 }
 
 .arch {
-  background: rgba(240, 239, 234, 0.06);
-  border: 1px solid rgba(240, 239, 234, 0.18);
+  background: rgba(41, 74, 34, 0.07);
+  border: 1px solid rgba(41, 74, 34, 0.2);
   border-radius: 20px;
   padding: 28px;
 }
 
 .arch .label {
-  color: var(--hot-pink);
-  border-bottom-color: var(--hot-pink);
   font-size: 12px;
   margin-bottom: 14px;
 }
 
 .arch h3 {
-  color: var(--canvas);
+  color: var(--deep-green);
   font-size: 19px;
   margin-bottom: 10px;
 }
 
 .arch p {
   font-size: 14px;
-  color: var(--canvas);
+  color: var(--deep-green);
   opacity: 0.8;
   line-height: 1.55;
 }
@@ -995,25 +988,24 @@ button {
 
 /* Archetype full detail (how-we-work page) */
 .arch-full {
-  background: rgba(240, 239, 234, 0.06);
-  border: 1px solid rgba(240, 239, 234, 0.18);
+  background: rgba(41, 74, 34, 0.07);
+  border: 1px solid rgba(41, 74, 34, 0.2);
   border-radius: 20px;
   padding: 36px;
   margin-bottom: 24px;
 }
 
 .arch-full h3 {
-  color: var(--canvas);
+  color: var(--deep-green);
   font-size: 24px;
   margin-bottom: 14px;
 }
 
 .arch-full p {
-  color: var(--canvas);
+  color: var(--deep-green);
   opacity: 0.8;
   font-size: 15px;
   line-height: 1.6;
-  max-width: 640px;
 }
 
 .arch-full .steps-list {
@@ -1024,7 +1016,7 @@ button {
 }
 
 .arch-full .steps-list li {
-  color: var(--canvas);
+  color: var(--deep-green);
   opacity: 0.85;
   font-size: 14.5px;
   line-height: 1.6;
@@ -1036,7 +1028,8 @@ button {
   content: "→";
   position: absolute;
   left: 0;
-  color: var(--hot-pink);
+  color: #fff;
+  -webkit-text-stroke: 0.6px var(--deep-green);
 }
 
 /* Method full page (how-we-work stages) */
@@ -1116,7 +1109,6 @@ button {
 }
 
 .directory p.lede {
-  max-width: 580px;
   font-size: 15px;
   line-height: 1.6;
   margin-bottom: 44px;
@@ -1274,7 +1266,6 @@ button {
 .page-hero p {
   font-size: 17px;
   line-height: 1.65;
-  max-width: 600px;
   margin-top: 22px;
 }
 
@@ -1311,7 +1302,6 @@ button {
 .section .lede {
   font-size: 16px;
   line-height: 1.7;
-  max-width: 640px;
   opacity: 0.85;
   margin-bottom: 40px;
 }
