@@ -2,6 +2,7 @@ import Pill from "@/components/Pill";
 import Label from "@/components/Label";
 import StepCard from "@/components/StepCard";
 import Marquee from "@/components/Marquee";
+import AccentCircle from "@/components/AccentCircle";
 import { homeServices, stages, experienceLogos, clientLogos } from "@/lib/content";
 
 export const metadata = {
@@ -15,6 +16,7 @@ export default function Home() {
     <>
       {/* 1. Who we are */}
       <section className="hero">
+        <AccentCircle left="mid-coral" right="hot-pink" className="hero-accent" />
         <div className="wrap">
           <h1>
             Sense &amp; Forum is a{" "}
@@ -129,6 +131,7 @@ export default function Home() {
 
       {/* 5. Why we do it */}
       <section className="why" aria-labelledby="why-we-do-it-heading">
+        <AccentCircle left="soft-lime" right="soft-pink" className="why-accent" />
         <div className="wrap">
           <Label>Why we do it</Label>
           <h2 id="why-we-do-it-heading">

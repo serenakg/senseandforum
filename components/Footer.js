@@ -1,10 +1,12 @@
 import Logo from "./Logo";
+import AccentCircle from "./AccentCircle";
 
 export default function Footer() {
   return (
     <footer className="site-footer">
+      <AccentCircle left="sun-amber" right="mid-coral" className="footer-accent" />
       <div style={{ marginBottom: 14 }}>
-        <Logo />
+        <Logo variant="black" />
       </div>
       <div>
         We design programmes, communities and events, and step in as

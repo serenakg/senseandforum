@@ -238,10 +238,54 @@ button {
   border-bottom-color: var(--hot-pink);
 }
 
+/* Decorative accent circles */
+.accent-circle {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+}
+
+.hero-accent {
+  top: -60px;
+  right: -40px;
+  width: 260px;
+  height: 260px;
+  opacity: 0.9;
+}
+
+.why-accent {
+  bottom: -50px;
+  right: 6%;
+  width: 150px;
+  height: 150px;
+  opacity: 0.85;
+}
+
+.footer-accent {
+  bottom: -70px;
+  left: -50px;
+  width: 170px;
+  height: 170px;
+  opacity: 0.7;
+}
+
+@media (max-width: 900px) {
+  .hero-accent { width: 170px; height: 170px; top: -30px; right: -30px; }
+  .why-accent { display: none; }
+  .footer-accent { width: 120px; height: 120px; }
+}
+
 /* Hero */
 .hero {
   background: var(--deep-green);
   padding: 70px 32px 90px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero .wrap {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1 {
@@ -701,6 +745,13 @@ button {
 .why {
   background: var(--canvas);
   padding: 90px 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.why .wrap {
+  position: relative;
+  z-index: 1;
 }
 
 .why h2 {
@@ -1177,11 +1228,14 @@ button {
 
 /* Footer */
 .site-footer {
-  background: var(--deep-green);
-  color: var(--canvas);
+  background: var(--canvas);
+  color: var(--deep-green);
   padding: 44px 32px;
   text-align: center;
   font-size: 14px;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid rgba(41, 74, 34, 0.12);
 }
 
 .site-footer div {
