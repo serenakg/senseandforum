@@ -17,6 +17,8 @@ export default function HowWeWorkPage() {
         bg="amber-pale"
         eyebrow="Our method"
         title="Four stages, one architecture"
+        accentLeft="soft-lime"
+        accentRight="soft-pink"
       >
         Audit and Review, Design, Implement, Prove It and Review It. The
         same method whether we&rsquo;re fixing one programme or building a

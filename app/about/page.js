@@ -12,12 +12,6 @@ export const metadata = buildMetadata({
   path: "/about",
 });
 
-const teamPlaceholders = [
-  "Strategy Lead",
-  "Programme & Community Design Lead",
-  "Client Partnerships Lead",
-];
-
 export default function AboutPage() {
   return (
     <>
@@ -25,6 +19,8 @@ export default function AboutPage() {
         bg="amber-pale"
         eyebrow="About us"
         title="No-nonsense community-led growth"
+        accentLeft="mid-coral"
+        accentRight="hot-pink"
       >
         We design no-nonsense growth systems for founders, teams and
         movements who want to build with intention. Brand strategy,
@@ -103,25 +99,6 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      <section className="section wrap" style={{ paddingTop: 0 }}>
-        <Label>The team</Label>
-        <h2>Who&rsquo;s building it</h2>
-        <p className="lede">
-          Team names and photos are intentionally withheld while our
-          ownership structure is being finalised. Roles below reflect how
-          the team is shaping up.
-        </p>
-        <div className="team-grid">
-          {teamPlaceholders.map((role) => (
-            <div className="team-card" key={role}>
-              <div className="avatar-placeholder" aria-hidden="true" />
-              <div className="role">{role}</div>
-              <div className="note">Name and photo to be announced</div>
-            </div>
-          ))}
         </div>
       </section>
 

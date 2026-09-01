@@ -17,6 +17,8 @@ export default function ServicesPage() {
         bg="soft-pink"
         eyebrow="What we offer"
         title="So how can Sense & Forum support you?"
+        accentLeft="sun-amber"
+        accentRight="mid-coral"
       >
         Four ways in, depending on how much you already know and how fast
         you need to move.

@@ -15,7 +15,13 @@ export const metadata = buildMetadata({
 export default function TeamPage() {
   return (
     <>
-      <PageHero bg="soft-lime" eyebrow="Who's building it" title="Meet the team">
+      <PageHero
+        bg="soft-lime"
+        eyebrow="Who's building it"
+        title="Meet the team"
+        accentLeft="sun-amber"
+        accentRight="hot-pink"
+      >
         A small core team, extended by the specialists we bring in project
         by project.
       </PageHero>
@@ -85,7 +91,7 @@ export default function TeamPage() {
               <DirectoryCard
                 key={slot.role}
                 role={slot.role}
-                initials={slot.initials}
+                icon={slot.icon}
                 colorIndex={i}
               />
             ))}

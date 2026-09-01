@@ -4,7 +4,7 @@
 // markup changes needed elsewhere.
 export default function DirectoryCard({
   role,
-  initials,
+  icon,
   colorIndex = 0,
   name,
   photo,
@@ -25,8 +25,9 @@ export default function DirectoryCard({
           style={{ objectFit: "cover" }}
         />
       ) : (
-        <div className="avatar" aria-hidden="true">
-          {initials}
+        <div className="avatar avatar-icon" aria-hidden="true">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={icon} alt="" />
         </div>
       )}
       <div className="role">{isLive ? name : role}</div>
