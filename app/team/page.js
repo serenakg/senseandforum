@@ -31,34 +31,31 @@ export default function TeamPage() {
         <h2>
           Serena Gasparini: the story behind <em>the Delia Model&trade;</em>
         </h2>
-        <div className="founder-layout">
+        <div>
+          <p className="lede">
+            Serena has spent over 20 years in marketing, events and
+            community, building programmes and brands from the ground
+            up. A period of burnout forced a full reset. Out of that
+            rebuild came the Delia Model&trade;, the inclusion framework
+            Sense &amp; Forum is built on.
+          </p>
+          <p className="lede">
+            Alongside Sense &amp; Forum, Serena runs a separate fractional
+            CMO practice with a specialism in femtech and inclusive
+            brand-building, her moat. She works more broadly too, with
+            any organisation genuinely building toward inclusion.
+          </p>
+          <ul className="credentials-list">
+            {founderCredentials.map((credential) => (
+              <li key={credential}>{credential}</li>
+            ))}
+          </ul>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/brand/team/serena.jpg"
             alt="Serena Gasparini"
             className="founder-photo"
-            style={{ objectFit: "cover" }}
           />
-          <div>
-            <p className="lede">
-              Serena has spent over 20 years in marketing, events and
-              community, building programmes and brands from the ground
-              up. A period of burnout forced a full reset. Out of that
-              rebuild came the Delia Model&trade;, the inclusion framework
-              Sense &amp; Forum is built on.
-            </p>
-            <p className="lede">
-              Alongside Sense &amp; Forum, Serena runs a separate fractional
-              CMO practice with a specialism in femtech and inclusive
-              brand-building, her moat. She works more broadly too, with
-              any organisation genuinely building toward inclusion.
-            </p>
-            <ul className="credentials-list">
-              {founderCredentials.map((credential) => (
-                <li key={credential}>{credential}</li>
-              ))}
-            </ul>
-          </div>
         </div>
       </section>
 

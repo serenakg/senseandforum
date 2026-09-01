@@ -1231,8 +1231,8 @@ button {
 }
 
 .slot .avatar {
-  width: 84px;
-  height: 84px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin: 0 auto 14px;
   display: flex;
@@ -1245,8 +1245,8 @@ button {
 }
 
 .slot .avatar-icon img {
-  width: 44px;
-  height: 44px;
+  width: 58px;
+  height: 58px;
 }
 
 .slot.c0 .avatar {
@@ -1474,30 +1474,13 @@ button {
   border-color: var(--deep-green);
 }
 
-.founder-layout {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 32px;
-  align-items: start;
-}
-
 .founder-photo {
-  width: 140px;
-  height: 140px;
-  font-size: 28px;
-  border-radius: 50%;
-  border: 3px solid var(--deep-green);
-}
-
-@media (max-width: 640px) {
-  .founder-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .founder-photo {
-    width: 96px;
-    height: 96px;
-  }
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  border-radius: 16px;
+  margin-top: 30px;
 }
 
 .credentials-list {
