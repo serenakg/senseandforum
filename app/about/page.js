@@ -91,9 +91,11 @@ export default function AboutPage() {
           <Label>Our values</Label>
           <h2 style={{ marginBottom: 32 }}>What we build around</h2>
           <div className="value-row">
-            {values.map((value) => (
-              <div key={value.key}>
-                <ValueIcon name={value.key} />
+            {values.map((value, i) => (
+              <div className={`value-card c${i % 4}`} key={value.key}>
+                <div className="value-icon-badge">
+                  <ValueIcon name={value.key} />
+                </div>
                 <h3>{value.title}</h3>
                 <p>{value.description}</p>
               </div>

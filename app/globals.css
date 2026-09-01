@@ -30,7 +30,7 @@ body {
   font-family: var(--font-body);
   color: var(--deep-green);
   background: var(--canvas);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.5;
 }
 
@@ -406,7 +406,7 @@ button {
 }
 
 .method .lede {
-  font-size: 17px;
+  font-size: 18.5px;
   line-height: 1.7;
   opacity: 0.85;
   margin-bottom: 40px;
@@ -475,23 +475,54 @@ button {
 .value-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
+  gap: 24px;
   text-align: left;
 }
 
-.value-row .icon {
-  height: 84px;
-  width: 84px;
-  margin-bottom: 22px;
+.value-card {
+  background: color-mix(in srgb, var(--soft-pink) 15%, white);
+  border-radius: 20px;
+  padding: 28px 24px;
+}
+
+.value-icon-badge {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid var(--deep-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.value-card.c0 .value-icon-badge {
+  border-color: var(--hot-pink);
+}
+.value-card.c1 .value-icon-badge {
+  border-color: var(--sun-amber);
+}
+.value-card.c2 .value-icon-badge {
+  border-color: var(--mid-coral);
+}
+.value-card.c3 .value-icon-badge {
+  border-color: var(--deep-green);
+}
+
+.value-icon-badge .icon {
+  height: 36px;
+  width: 36px;
+  margin-bottom: 0;
 }
 
 .value-row h3 {
-  font-size: 22px;
+  font-size: 21px;
   margin-bottom: 8px;
 }
 
 .value-row p {
-  font-size: 15.5px;
+  font-size: 16px;
   color: var(--deep-green);
   opacity: 0.75;
   line-height: 1.55;
@@ -500,7 +531,7 @@ button {
 @media (max-width: 1024px) {
   .value-row {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 40px;
+    row-gap: 24px;
   }
 }
 
@@ -552,7 +583,7 @@ button {
 }
 
 .services .lede {
-  font-size: 17px;
+  font-size: 18.5px;
   line-height: 1.6;
   opacity: 0.85;
   margin-bottom: 30px;
@@ -688,7 +719,7 @@ button {
 .serve p {
   color: var(--deep-green);
   opacity: 0.85;
-  font-size: 17px;
+  font-size: 18.5px;
 }
 
 /* Moving word banner */
@@ -873,7 +904,7 @@ button {
 }
 
 .svc-full .desc {
-  font-size: 16px;
+  font-size: 17.5px;
   line-height: 1.65;
   margin-bottom: 22px;
   opacity: 0.85;
@@ -1025,7 +1056,7 @@ button {
 .arch-full p {
   color: var(--deep-green);
   opacity: 0.8;
-  font-size: 15px;
+  font-size: 16.5px;
   line-height: 1.6;
 }
 
@@ -1067,7 +1098,7 @@ button {
 }
 
 .stage:last-child {
-  border-bottom: 1px solid var(--deep-green);
+  border-bottom: none;
 }
 
 .stage .n {
@@ -1084,7 +1115,7 @@ button {
 }
 
 .stage p {
-  font-size: 15.5px;
+  font-size: 17px;
   line-height: 1.65;
   opacity: 0.85;
   margin-bottom: 14px;
@@ -1133,7 +1164,7 @@ button {
 }
 
 .directory p.lede {
-  font-size: 15px;
+  font-size: 16.5px;
   line-height: 1.6;
   margin-bottom: 44px;
   opacity: 0.8;
@@ -1162,6 +1193,8 @@ button {
   justify-content: center;
   color: var(--deep-green);
   font-size: 13px;
+  background: #fff;
+  border: 3px solid var(--deep-green);
 }
 
 .slot .avatar-icon img {
@@ -1170,18 +1203,16 @@ button {
 }
 
 .slot.c0 .avatar {
-  background: var(--hot-pink);
+  border-color: var(--hot-pink);
 }
 .slot.c1 .avatar {
-  background: var(--soft-lime);
+  border-color: var(--sun-amber);
 }
 .slot.c2 .avatar {
-  background: var(--sun-amber);
-  color: var(--deep-green);
+  border-color: var(--mid-coral);
 }
 .slot.c3 .avatar {
-  background: var(--mid-coral);
-  color: var(--deep-green);
+  border-color: var(--deep-green);
 }
 
 .slot .role {
@@ -1223,7 +1254,7 @@ button {
 .cta {
   padding: 100px 32px;
   text-align: center;
-  background: var(--soft-pink);
+  background: var(--mid-coral);
 }
 
 .cta h2 {
@@ -1312,7 +1343,7 @@ button {
 }
 
 .page-hero p {
-  font-size: 17px;
+  font-size: 18.5px;
   line-height: 1.65;
   margin-top: 22px;
 }
@@ -1348,7 +1379,7 @@ button {
 }
 
 .section .lede {
-  font-size: 16px;
+  font-size: 17.5px;
   line-height: 1.7;
   opacity: 0.85;
   margin-bottom: 40px;
@@ -1461,12 +1492,9 @@ button {
 
 /* Callout / notice box */
 .notice {
-  background: var(--amber-pale);
-  border: 1.5px solid var(--deep-green);
-  border-radius: 14px;
-  padding: 18px 22px;
-  font-size: 13.5px;
+  font-size: 14.5px;
   line-height: 1.6;
+  opacity: 0.75;
   opacity: 0.85;
   max-width: 640px;
 }
