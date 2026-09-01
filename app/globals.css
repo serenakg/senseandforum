@@ -246,11 +246,12 @@ button {
 }
 
 .hero-accent {
-  top: -60px;
-  right: -40px;
-  width: 260px;
-  height: 260px;
-  opacity: 0.9;
+  bottom: -160px;
+  right: 8%;
+  width: 340px;
+  height: 340px;
+  opacity: 0.95;
+  z-index: 1;
 }
 
 .why-accent {
@@ -270,7 +271,7 @@ button {
 }
 
 @media (max-width: 900px) {
-  .hero-accent { width: 170px; height: 170px; top: -30px; right: -30px; }
+  .hero-accent { width: 220px; height: 220px; bottom: -100px; right: -20px; }
   .why-accent { display: none; }
   .footer-accent { width: 120px; height: 120px; }
 }
@@ -280,7 +281,6 @@ button {
   background: var(--deep-green);
   padding: 70px 32px 90px;
   position: relative;
-  overflow: hidden;
 }
 
 .hero .wrap {
@@ -1062,7 +1062,6 @@ button {
   font-size: 15.5px;
   line-height: 1.65;
   opacity: 0.85;
-  max-width: 640px;
   margin-bottom: 14px;
 }
 
