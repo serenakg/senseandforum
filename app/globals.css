@@ -247,7 +247,7 @@ button {
 }
 
 .hero-accent {
-  bottom: -160px;
+  bottom: -170px;
   right: 8%;
   width: 340px;
   height: 340px;
@@ -256,7 +256,7 @@ button {
 }
 
 .why-accent {
-  bottom: -50px;
+  bottom: -75px;
   right: 6%;
   width: 150px;
   height: 150px;
@@ -264,7 +264,7 @@ button {
 }
 
 .footer-accent {
-  bottom: -70px;
+  bottom: -85px;
   left: -50px;
   width: 170px;
   height: 170px;
@@ -474,7 +474,7 @@ button {
 
 .value-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   text-align: left;
 }
@@ -486,15 +486,15 @@ button {
 }
 
 .value-icon-badge {
-  width: 72px;
-  height: 72px;
+  width: 88px;
+  height: 88px;
   border-radius: 50%;
   background: #fff;
   border: 3px solid var(--deep-green);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
 }
 
 .value-card.c0 .value-icon-badge {
@@ -511,8 +511,8 @@ button {
 }
 
 .value-icon-badge .icon {
-  height: 36px;
-  width: 36px;
+  height: 46px;
+  width: 46px;
   margin-bottom: 0;
 }
 
@@ -1184,8 +1184,8 @@ button {
 }
 
 .slot .avatar {
-  width: 52px;
-  height: 52px;
+  width: 66px;
+  height: 66px;
   border-radius: 50%;
   margin: 0 auto 14px;
   display: flex;
@@ -1198,8 +1198,8 @@ button {
 }
 
 .slot .avatar-icon img {
-  width: 26px;
-  height: 26px;
+  width: 34px;
+  height: 34px;
 }
 
 .slot.c0 .avatar {
@@ -1254,6 +1254,10 @@ button {
 .cta {
   padding: 100px 32px;
   text-align: center;
+  background: var(--soft-pink);
+}
+
+.cta.cta-coral {
   background: var(--mid-coral);
 }
 
@@ -1266,6 +1270,10 @@ button {
 
 .cta h2 em {
   color: var(--hot-pink);
+}
+
+.cta-coral h2 em {
+  color: #fff;
 }
 
 @media (max-width: 640px) {
@@ -1321,7 +1329,7 @@ button {
 }
 
 .page-hero-accent {
-  bottom: -70px;
+  bottom: -85px;
   right: 6%;
   width: 170px;
   height: 170px;

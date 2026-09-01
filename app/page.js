@@ -3,7 +3,7 @@ import Label from "@/components/Label";
 import StepCard from "@/components/StepCard";
 import Marquee from "@/components/Marquee";
 import AccentCircle from "@/components/AccentCircle";
-import { homeServices, stages, experienceLogos, clientLogos } from "@/lib/content";
+import { homeServices, stages } from "@/lib/content";
 
 export const metadata = {
   title: "Sense & Forum: Service Design and Marketing Leadership",
@@ -76,33 +76,6 @@ export default function Home() {
             Founders, teams and movements ready to lead with clarity.
           </h2>
           <p>Ongoing work or a single event: we work both ways.</p>
-        </div>
-      </section>
-
-      {/* Trust bar */}
-      <section className="trust-bar" aria-labelledby="trust-bar-heading">
-        <div className="wrap">
-          <p id="trust-bar-heading" className="trust-bar-label">
-            Experience &amp; partnering with
-          </p>
-          <div className="trust-bar-logos">
-            {experienceLogos.map((logo) => (
-              <div className="trust-bar-logo-card" key={logo.name}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={logo.src} alt={logo.name} className="trust-bar-logo" />
-              </div>
-            ))}
-          </div>
-
-          <p className="trust-bar-label trust-bar-label-second">Past clients</p>
-          <div className="trust-bar-logos trust-bar-logos-second">
-            {clientLogos.map((logo) => (
-              <div className="trust-bar-logo-card" key={logo.name}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={logo.src} alt={logo.name} className="trust-bar-logo" />
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 

@@ -104,7 +104,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="cta">
+      <section className="cta cta-coral">
         <h2>
           Want to work <em>together?</em>
         </h2>

@@ -64,7 +64,7 @@ export default function HowWeWorkPage() {
         </div>
       </section>
 
-      <section className="cta">
+      <section className="cta cta-coral">
         <h2>
           See what this looks like for <em>your team</em>
         </h2>

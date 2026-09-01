@@ -43,6 +43,14 @@ export default function ContactPage() {
             <a className="pill pill-ghost-dark" href="mailto:hello@senseandforum.com?subject=Book%20a%20discovery%20call">
               Book a discovery call →
             </a>
+            <a
+              className="pill pill-ghost-dark"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdP33no5Ksu7zq68RJdI0_DTdt-MwvzksSkKQ5bi1t4y3Ivcg/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Fill out our work with us form →
+            </a>
             <p style={{ fontSize: 12.5, opacity: 0.6, marginTop: 16, marginBottom: 0 }}>
               Placeholder contact details: swap in a live booking link once
               one&rsquo;s set up.
