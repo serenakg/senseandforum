@@ -1,9 +1,8 @@
 const imageMap = {
-  community: "/brand/icons/community.webp",
-  celebration: "/brand/icons/celebration.webp",
-  creativity: "/brand/icons/creativity.webp",
-  communication: "/brand/icons/communication.webp",
-  care: "/brand/icons/care.webp",
+  structure: "/brand/icons/extra/build.webp",
+  connection: "/brand/icons/extra/connection.webp",
+  clarity: "/brand/icons/extra/inspire.webp",
+  momentum: "/brand/icons/extra/forecast.webp",
 };
 
 export default function ValueIcon({ name, className = "icon" }) {

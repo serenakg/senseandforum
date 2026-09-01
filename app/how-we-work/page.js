@@ -18,9 +18,9 @@ export default function HowWeWorkPage() {
         eyebrow="Our method"
         title="Four stages, one architecture"
       >
-        Audit, Redesign, Implement, Prove It. The same method whether
-        we&rsquo;re fixing one programme or building a community from
-        scratch.
+        Audit and Review, Design, Implement, Prove It and Review It. The
+        same method whether we&rsquo;re fixing one programme or building a
+        community from scratch.
       </PageHero>
 
       <section className="section wrap">

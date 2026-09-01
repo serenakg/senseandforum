@@ -4,7 +4,6 @@
 // markup changes needed elsewhere.
 export default function DirectoryCard({
   role,
-  status,
   initials,
   colorIndex = 0,
   name,
@@ -37,7 +36,7 @@ export default function DirectoryCard({
         </div>
       )}
       {bio && <p className="bio">{bio}</p>}
-      <div className="status">{isLive ? availability : status}</div>
+      {isLive && availability && <div className="status">{availability}</div>}
       {rateBand && (
         <div className="status" style={{ opacity: 0.5, marginTop: 4 }}>
           {rateBand}

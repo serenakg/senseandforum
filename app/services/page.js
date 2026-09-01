@@ -32,6 +32,11 @@ export default function ServicesPage() {
               </div>
               <h2>{service.title}</h2>
               <p className="desc">{service.fullDescription}</p>
+              <ul className="svc-full-includes">
+                {service.whatYouGet.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
               <div className="meta">
                 <div className="meta-item">
                   <div className="k">Format</div>
