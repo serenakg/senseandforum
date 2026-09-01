@@ -6,8 +6,8 @@ export default function AccentCircle({ left, right, className = "" }) {
       aria-hidden="true"
       focusable="false"
     >
-      <path d="M100,0 A100,100 0 0 0 100,200 Z" fill={`var(--${left})`} />
-      <path d="M100,0 A100,100 0 0 1 100,200 Z" fill={`var(--${right})`} />
+      <path d="M0,100 A100,100 0 0 1 200,100 Z" fill={`var(--${left})`} />
+      <path d="M0,100 A100,100 0 0 0 200,100 Z" fill={`var(--${right})`} />
     </svg>
   );
 }

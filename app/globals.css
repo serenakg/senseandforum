@@ -398,6 +398,7 @@ button {
 /* Method / steps */
 .method {
   padding: 90px 32px;
+  background: var(--amber-pale);
 }
 
 .method .label {
@@ -463,14 +464,12 @@ button {
 
 /* Values / 4 C's */
 .values {
-  padding: 80px 32px;
-  background: #fff;
-  border-top: 1px solid var(--deep-green);
-  border-bottom: 1px solid var(--deep-green);
+  padding: 70px 32px 90px;
+  background: var(--canvas);
 }
 
 .values .label {
-  margin: 0 auto 48px;
+  margin-bottom: 32px;
 }
 
 .value-row {
@@ -956,7 +955,7 @@ button {
 
 /* Proof / archetypes */
 .proof {
-  background: var(--hot-pink);
+  background: var(--soft-pink);
   padding: 90px 32px;
 }
 
@@ -968,7 +967,7 @@ button {
 }
 
 .proof h2 em {
-  color: #fff;
+  color: var(--hot-pink);
 }
 
 .archetypes {
@@ -1050,8 +1049,8 @@ button {
   content: "→";
   position: absolute;
   left: 0;
-  color: #fff;
-  -webkit-text-stroke: 0.6px var(--deep-green);
+  color: var(--hot-pink);
+  font-weight: 700;
 }
 
 /* Method full page (how-we-work stages) */

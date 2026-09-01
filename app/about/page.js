@@ -21,9 +21,16 @@ const teamPlaceholders = [
 export default function AboutPage() {
   return (
     <>
-      <PageHero bg="canvas" eyebrow="About us" title="Client-facing work, start to finish">
-        External, client-facing work: programmes, communities, events and
-        marketing, plus senior marketing leadership when you need it.
+      <PageHero
+        bg="amber-pale"
+        eyebrow="About us"
+        title="No-nonsense community-led growth"
+      >
+        We design no-nonsense growth systems for founders, teams and
+        movements who want to build with intention. Brand strategy,
+        community architecture, campaign systems: we work with
+        organisations ready to lead with clarity and move with their
+        people. Sense, before strategy. Forum, before you scale it.
       </PageHero>
 
       <section className="section wrap">
@@ -34,13 +41,15 @@ export default function AboutPage() {
         <p className="lede">
           Most organisations treat community and belonging as things that
           happen after the real work: a social page, an occasional event, a
-          channel nobody checks.
+          channel nobody checks. Sense &amp; Forum started because that gap
+          kept costing our clients the people they were trying to reach.
         </p>
         <p className="lede">
-          Sense &amp; Forum audits how you actually engage people, customers
-          or members: touchpoints, programmes, events, rhythm and belonging.
-          Then we design the architecture underneath it, built on the Delia
-          Model&trade;, so inclusion is designed in from the start.
+          Sense &amp; Forum&reg; is a service design and marketing
+          leadership agency for community-led growth. We audit your
+          programme, community or event. We redesign it. We build it from
+          scratch. Or we step in as your fractional marketing leadership
+          when you need direction without a full-time hire.
         </p>
         <p className="lede">
           We work with founders, teams and movements who want the next
@@ -81,6 +90,22 @@ export default function AboutPage() {
         </p>
       </section>
 
+      <section className="values">
+        <div className="wrap">
+          <Label>Our values</Label>
+          <h2 style={{ marginBottom: 32 }}>What we build around</h2>
+          <div className="value-row">
+            {values.map((value) => (
+              <div key={value.key}>
+                <ValueIcon name={value.key} />
+                <h3>{value.title}</h3>
+                <p>{value.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section wrap" style={{ paddingTop: 0 }}>
         <Label>The team</Label>
         <h2>Who&rsquo;s building it</h2>
@@ -97,22 +122,6 @@ export default function AboutPage() {
               <div className="note">Name and photo to be announced</div>
             </div>
           ))}
-        </div>
-      </section>
-
-      <section className="values">
-        <div className="wrap">
-          <Label>Our values</Label>
-          <h2 style={{ marginBottom: 32 }}>What we build around</h2>
-          <div className="value-row">
-            {values.map((value) => (
-              <div key={value.key}>
-                <ValueIcon name={value.key} />
-                <h3>{value.title}</h3>
-                <p>{value.description}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 

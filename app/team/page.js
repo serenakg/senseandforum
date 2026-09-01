@@ -39,9 +39,9 @@ export default function TeamPage() {
             </p>
             <p className="lede">
               Alongside Sense &amp; Forum, Serena runs a separate fractional
-              CMO practice with a specialism in femtech and women+ brands,
-              her moat. She works more broadly too, with any organisation
-              genuinely building toward inclusion.
+              CMO practice with a specialism in femtech and inclusive
+              brand-building, her moat. She works more broadly too, with
+              any organisation genuinely building toward inclusion.
             </p>
             <ul className="credentials-list">
               {founderCredentials.map((credential) => (
