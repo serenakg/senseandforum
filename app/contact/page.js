@@ -24,6 +24,24 @@ export default function ContactPage() {
         set up a discovery call.
       </PageHero>
 
+      <section className="section wrap" style={{ paddingBottom: 0 }}>
+        <div className="contact-card" style={{ maxWidth: 640 }}>
+          <h2>Book a discovery call</h2>
+          <p>
+            Fill out this short form first: it&rsquo;s how we work out if
+            we&rsquo;re a fit before we get a call in the calendar.
+          </p>
+          <a
+            className="pill pill-solid-green"
+            href="https://forms.gle/h2QPvd8PRaNFUNfWA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Fill out the discovery call form →
+          </a>
+        </div>
+      </section>
+
       <section className="section wrap">
         <div className="contact-layout">
           <div>
@@ -35,13 +53,10 @@ export default function ContactPage() {
             <h2>Prefer to skip the form?</h2>
             <p>
               Email us directly and we&rsquo;ll route it to the right
-              person, or book a discovery call straight into the calendar.
+              person.
             </p>
             <a className="pill pill-solid-green" href="mailto:hello@senseandforum.com">
               Email hello@senseandforum.com
-            </a>
-            <a className="pill pill-ghost-dark" href="mailto:hello@senseandforum.com?subject=Book%20a%20discovery%20call">
-              Book a discovery call →
             </a>
             <a
               className="pill pill-ghost-dark"
@@ -52,7 +67,7 @@ export default function ContactPage() {
               Fill out our work with us form →
             </a>
             <p style={{ fontSize: 12.5, opacity: 0.6, marginTop: 16, marginBottom: 0 }}>
-              Placeholder contact details: swap in a live booking link once
+              Placeholder contact details: swap in a live inbox once
               one&rsquo;s set up.
             </p>
           </div>
