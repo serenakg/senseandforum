@@ -1653,20 +1653,8 @@ button {
 }
 
 /* Contact form */
-.contact-layout {
-  display: grid;
-  grid-template-columns: 1.3fr 1fr;
-  gap: 56px;
-  align-items: start;
-}
-
-@media (max-width: 900px) {
-  .contact-layout {
-    grid-template-columns: 1fr;
-  }
-}
-
 .form-embed {
+  max-width: 700px;
   border: 1.5px solid var(--deep-green);
   border-radius: 20px;
   overflow: hidden;
@@ -1685,6 +1673,12 @@ button {
   border: 1.5px solid var(--deep-green);
   border-radius: 20px;
   padding: 36px 30px;
+  max-width: 640px;
+}
+
+.contact-card-centered {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .contact-card h2 {
@@ -1703,6 +1697,11 @@ button {
   margin-bottom: 12px;
   width: 100%;
   justify-content: center;
+}
+
+.contact-card-centered .pill {
+  width: auto;
+  margin: 0 auto;
 }
 
 /* Logo */

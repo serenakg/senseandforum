@@ -1,4 +1,5 @@
 import PageHero from "@/components/PageHero";
+import Label from "@/components/Label";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
@@ -41,30 +42,30 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="section wrap">
-        <div className="contact-layout">
-          <div>
-            <h2 className="visually-hidden">Send us a message</h2>
-            <div className="form-embed">
-              <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSdP33no5Ksu7zq68RJdI0_DTdt-MwvzksSkKQ5bi1t4y3Ivcg/viewform?embedded=true"
-                title="Work with us form"
-              >
-                Loading…
-              </iframe>
-            </div>
-          </div>
+      <section className="section wrap" style={{ paddingBottom: 0 }}>
+        <Label>Send us a message</Label>
+        <h2>Tell us what you&rsquo;re working on</h2>
+        <p className="lede">
+          Fill out the form below and we&rsquo;ll route it to the right
+          person.
+        </p>
+        <div className="form-embed">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdP33no5Ksu7zq68RJdI0_DTdt-MwvzksSkKQ5bi1t4y3Ivcg/viewform?embedded=true"
+            title="Work with us form"
+          >
+            Loading&hellip;
+          </iframe>
+        </div>
+      </section>
 
-          <div className="contact-card">
-            <h2>Prefer to skip the form?</h2>
-            <p>
-              Email us directly and we&rsquo;ll route it to the right
-              person.
-            </p>
-            <a className="pill pill-solid-green" href="mailto:hello@senseandforum.com">
-              Email hello@senseandforum.com
-            </a>
-          </div>
+      <section className="section wrap">
+        <div className="contact-card contact-card-centered">
+          <h2>Prefer to skip the form?</h2>
+          <p>Email us directly and we&rsquo;ll route it to the right person.</p>
+          <a className="pill pill-solid-green" href="mailto:hello@senseandforum.com">
+            Email hello@senseandforum.com
+          </a>
         </div>
       </section>
     </>
