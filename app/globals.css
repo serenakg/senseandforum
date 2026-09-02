@@ -122,24 +122,48 @@ button {
 .pill-solid {
   background: var(--hot-pink);
   color: #fff;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.pill-solid:hover {
+  background: var(--sun-amber);
+  color: var(--deep-green);
 }
 
 /* Secondary CTA */
 .pill-solid-green {
   background: var(--bright-orange);
   color: var(--canvas);
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.pill-solid-green:hover {
+  background: var(--sun-amber);
+  color: var(--deep-green);
 }
 
 .pill-ghost {
   background: transparent;
   border: 1.5px solid var(--canvas);
   color: var(--canvas);
+  transition: transform 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.pill-ghost:hover {
+  border-color: var(--sun-amber);
+  color: var(--sun-amber);
 }
 
 .pill-ghost-dark {
   background: transparent;
   border: 1.5px solid var(--deep-green);
   color: var(--deep-green);
+  transition: transform 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.pill-ghost-dark:hover {
+  border-color: var(--sun-amber);
+  color: var(--sun-amber);
 }
 
 /* Nav */
