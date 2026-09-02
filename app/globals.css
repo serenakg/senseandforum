@@ -960,6 +960,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
+  margin-top: 24px;
 }
 
 .svc-full .meta-item {

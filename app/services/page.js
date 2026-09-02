@@ -38,16 +38,6 @@ export default function ServicesPage() {
                   <li key={item}>{item}</li>
                 ))}
               </ul>
-              <div className="meta">
-                <div className="meta-item">
-                  <div className="k">Format</div>
-                  <div className="v">{service.format}</div>
-                </div>
-                <div className="meta-item">
-                  <div className="k">Pricing (benchmark)</div>
-                  <div className="v">{service.price}</div>
-                </div>
-              </div>
               <div className="svc-fit">
                 <div>
                   <h3>This is for you if</h3>
@@ -64,6 +54,16 @@ export default function ServicesPage() {
                       <li key={item}>{item}</li>
                     ))}
                   </ul>
+                </div>
+              </div>
+              <div className="meta">
+                <div className="meta-item">
+                  <div className="k">Format</div>
+                  <div className="v">{service.format}</div>
+                </div>
+                <div className="meta-item">
+                  <div className="k">Pricing (benchmark)</div>
+                  <div className="v">{service.price}</div>
                 </div>
               </div>
             </article>
