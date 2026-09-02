@@ -19,6 +19,10 @@ export default function Footer() {
         <a href="/team">Team</a>
         <a href="/contact">Contact</a>
       </nav>
+      <nav className="footer-legal" aria-label="Legal">
+        <a href="/terms">Terms and Conditions</a>
+        <a href="/privacy">Privacy Policy</a>
+      </nav>
       <div style={{ opacity: 0.7, fontSize: 12 }}>
         © {new Date().getFullYear()} Sense &amp; Forum
       </div>

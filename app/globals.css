@@ -1364,6 +1364,74 @@ button {
   border-bottom-color: var(--hot-pink);
 }
 
+.site-footer .footer-legal {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 0 0 10px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.site-footer .footer-legal a {
+  border-bottom: 1px solid transparent;
+}
+
+.site-footer .footer-legal a:hover,
+.site-footer .footer-legal a:focus-visible {
+  border-bottom-color: var(--hot-pink);
+}
+
+/* Legal pages (terms / privacy) */
+.legal {
+  max-width: 760px;
+}
+
+.legal-intro p {
+  font-size: 17px;
+  line-height: 1.7;
+  opacity: 0.85;
+  margin-bottom: 18px;
+}
+
+.legal-intro {
+  margin-bottom: 40px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(41, 74, 34, 0.15);
+}
+
+.legal-section {
+  margin-bottom: 36px;
+}
+
+.legal-section h2 {
+  font-size: 20px;
+  margin-bottom: 14px;
+  max-width: none;
+}
+
+.legal-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.85;
+  margin-bottom: 14px;
+}
+
+.legal-list {
+  list-style: disc;
+  padding-left: 22px;
+  display: grid;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.legal-list li {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
 /* Generic page hero (interior pages) */
 .page-hero {
   padding: 64px 32px 72px;
