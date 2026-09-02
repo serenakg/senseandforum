@@ -66,10 +66,6 @@ export default function ContactPage() {
             >
               Fill out our work with us form →
             </a>
-            <p style={{ fontSize: 12.5, opacity: 0.6, marginTop: 16, marginBottom: 0 }}>
-              Placeholder contact details: swap in a live inbox once
-              one&rsquo;s set up.
-            </p>
           </div>
         </div>
       </section>
