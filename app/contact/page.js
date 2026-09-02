@@ -1,5 +1,4 @@
 import PageHero from "@/components/PageHero";
-import ContactForm from "@/components/ContactForm";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
@@ -46,7 +45,14 @@ export default function ContactPage() {
         <div className="contact-layout">
           <div>
             <h2 className="visually-hidden">Send us a message</h2>
-            <ContactForm />
+            <div className="form-embed">
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdP33no5Ksu7zq68RJdI0_DTdt-MwvzksSkKQ5bi1t4y3Ivcg/viewform?embedded=true"
+                title="Work with us form"
+              >
+                Loading…
+              </iframe>
+            </div>
           </div>
 
           <div className="contact-card">
@@ -57,14 +63,6 @@ export default function ContactPage() {
             </p>
             <a className="pill pill-solid-green" href="mailto:hello@senseandforum.com">
               Email hello@senseandforum.com
-            </a>
-            <a
-              className="pill pill-ghost-dark"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdP33no5Ksu7zq68RJdI0_DTdt-MwvzksSkKQ5bi1t4y3Ivcg/viewform?usp=header"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Fill out our work with us form →
             </a>
           </div>
         </div>
