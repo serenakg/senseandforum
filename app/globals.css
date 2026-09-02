@@ -303,7 +303,7 @@ button {
 
 /* Hero */
 .hero {
-  background: var(--deep-green);
+  background: var(--soft-pink);
   padding: 70px 32px 90px;
   position: relative;
 }
@@ -315,7 +315,7 @@ button {
 
 .hero h1 {
   font-size: 60px;
-  color: var(--canvas);
+  color: var(--deep-green);
   letter-spacing: -1px;
   max-width: 900px;
 }
@@ -327,7 +327,7 @@ button {
 .hero p {
   font-size: 18px;
   line-height: 1.65;
-  color: var(--canvas);
+  color: var(--deep-green);
   opacity: 0.85;
   margin: 26px 0 34px;
 }
