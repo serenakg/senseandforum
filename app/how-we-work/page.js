@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "How We Work",
   description:
-    "The Sense & Forum method: Audit, Redesign, Implement, Prove It. Plus the three patterns we keep solving for across scale-ups, community organisations, and one-off events.",
+    "The Sense & Forum method: Audit, Redesign, Implement, Prove It. Plus the patterns we keep solving for across scale-ups, community organisations, one-off events and startups.",
   path: "/how-we-work",
 });
 
@@ -47,7 +47,7 @@ export default function HowWeWorkPage() {
       <section className="proof">
         <div className="wrap">
           <h2>
-            Three patterns we keep <em>solving for</em>
+            Patterns we keep <em>solving for</em>
           </h2>
           {archetypes.map((arch) => (
             <div className="arch-full" key={arch.tag}>
