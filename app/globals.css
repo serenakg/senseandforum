@@ -422,7 +422,7 @@ button {
 /* Method / steps */
 .method {
   padding: 90px 32px;
-  background: var(--amber-pale);
+  background: var(--soft-lime);
 }
 
 .method .label {
@@ -1490,6 +1490,14 @@ button {
   max-width: 780px;
 }
 
+.page-hero h1 em {
+  color: var(--hot-pink);
+}
+
+.page-hero.on-dark h1 em {
+  color: var(--soft-pink);
+}
+
 .page-hero p {
   font-size: 18.5px;
   line-height: 1.65;
@@ -1531,6 +1539,18 @@ button {
   line-height: 1.7;
   opacity: 0.85;
   margin-bottom: 40px;
+}
+
+.section .lede a {
+  color: var(--hot-pink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  opacity: 1;
+}
+
+.section .lede a:hover,
+.section .lede a:focus-visible {
+  color: var(--deep-green);
 }
 
 /* Team / placeholder grid */

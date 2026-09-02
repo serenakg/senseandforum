@@ -18,7 +18,12 @@ export default function AboutPage() {
       <PageHero
         bg="amber-pale"
         eyebrow="About us"
-        title="No-nonsense community-led growth"
+        title={
+          <>
+            Sense, before strategy.{" "}
+            <em>Forum, before you scale it.</em>
+          </>
+        }
         accentLeft="mid-coral"
         accentRight="hot-pink"
       >
@@ -26,7 +31,7 @@ export default function AboutPage() {
         movements who want to build with intention. Brand strategy,
         community architecture, campaign systems: we work with
         organisations ready to lead with clarity and move with their
-        people. Sense, before strategy. Forum, before you scale it.
+        people.
       </PageHero>
 
       <section className="section wrap">
@@ -61,6 +66,13 @@ export default function AboutPage() {
         <h2>
           The Delia Model&trade;
         </h2>
+        <p className="lede">
+          Delia takes its name from the space Serena wished existed when
+          she started out: a home for the founders, dreamers and doers
+          building bold, community-first brands, especially in femtech
+          and social impact, the ones mainstream playbooks tend to leave
+          out.
+        </p>
         <p className="lede">
           Most growth systems are built for the average user. We build for
           who gets missed.

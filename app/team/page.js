@@ -40,10 +40,17 @@ export default function TeamPage() {
             Sense &amp; Forum&reg; is built on.
           </p>
           <p className="lede">
-            Alongside Sense &amp; Forum, Serena runs a separate fractional
-            CMO practice with a specialism in femtech and inclusive
-            brand-building, her moat. She works more broadly too, with
-            any organisation genuinely building toward inclusion.
+            Alongside Sense &amp; Forum, Serena runs a{" "}
+            <a
+              href="https://www.madeformoremarketing.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              separate fractional CMO practice
+            </a>{" "}
+            with a specialism in femtech and inclusive brand-building, her
+            moat. She works more broadly too, with any organisation
+            genuinely building toward inclusion.
           </p>
           <ul className="credentials-list">
             {founderCredentials.map((credential) => (
