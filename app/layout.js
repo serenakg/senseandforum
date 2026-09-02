@@ -30,7 +30,7 @@ const siteUrl = "https://senseandforum.com";
 const siteTitle =
   "Sense & Forum: Service Design and Marketing Leadership";
 const siteDescription =
-  "Sense & Forum designs no-nonsense growth systems: community architecture, campaign systems and senior marketing leadership. Built on the Delia Model™: our approach to inclusion for everyone. For founders, teams and movements ready to lead with clarity.";
+  "Sense & Forum designs no-nonsense growth systems: community, programme and event design, audits and rebuilds, and senior marketing leadership. Built on the Delia Model™: our approach to inclusion for everyone. For founders, teams and movements ready to lead with clarity.";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),

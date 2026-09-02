@@ -9,8 +9,8 @@ export default function Footer() {
         <Logo variant="black" />
       </div>
       <div>
-        We design programmes, communities and events, and step in as
-        marketing leadership when you need it.
+        We audit, build and run programmes, communities and events, and
+        step in as your fractional marketing leadership.
       </div>
       <nav className="footer-links" aria-label="Footer">
         <a href="/about">About</a>

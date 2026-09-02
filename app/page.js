@@ -8,7 +8,7 @@ import { homeServices, stages } from "@/lib/content";
 export const metadata = {
   title: "Sense & Forum: Service Design and Marketing Leadership",
   description:
-    "Sense & Forum designs no-nonsense growth systems for founders, teams and movements: community architecture, campaign systems and senior marketing leadership. Built on the Delia Model™.",
+    "Sense & Forum designs no-nonsense growth systems for founders, teams and movements: community, programme and event design, audits and rebuilds, and senior marketing leadership. Built on the Delia Model™.",
 };
 
 export default function Home() {
