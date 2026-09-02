@@ -20,7 +20,7 @@ export default function Home() {
         <div className="wrap">
           <Label>Service design &amp; marketing leadership</Label>
           <h1>
-            Sense &amp; Forum is a{" "}
+            Sense &amp; Forum&reg; is a{" "}
             <em>service design and marketing leadership agency</em> for
             community led growth
           </h1>

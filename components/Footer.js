@@ -24,7 +24,7 @@ export default function Footer() {
         <a href="/privacy">Privacy Policy</a>
       </nav>
       <div style={{ opacity: 0.7, fontSize: 12 }}>
-        © {new Date().getFullYear()} Sense &amp; Forum
+        © {new Date().getFullYear()} Sense &amp; Forum&reg;
       </div>
     </footer>
   );

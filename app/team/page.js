@@ -37,7 +37,7 @@ export default function TeamPage() {
             community, building programmes and brands from the ground
             up. A period of burnout forced a full reset. Out of that
             rebuild came the Delia Model&trade;, the inclusion framework
-            Sense &amp; Forum is built on.
+            Sense &amp; Forum&reg; is built on.
           </p>
           <p className="lede">
             Alongside Sense &amp; Forum, Serena runs a separate fractional
