@@ -324,6 +324,11 @@ button {
   color: var(--hot-pink);
 }
 
+.reg-mark {
+  font-size: 0.4em;
+  vertical-align: super;
+}
+
 .hero p {
   font-size: 18px;
   line-height: 1.65;
@@ -816,6 +821,7 @@ button {
 
 .why h2 em {
   color: var(--bright-orange);
+  white-space: nowrap;
 }
 
 .why p {
@@ -1346,6 +1352,14 @@ button {
 
 .cta-coral h2 em {
   color: #fff;
+}
+
+.cta p {
+  font-size: 16px;
+  color: var(--deep-green);
+  opacity: 0.75;
+  margin: -18px auto 30px;
+  max-width: 480px;
 }
 
 @media (max-width: 640px) {

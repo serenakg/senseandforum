@@ -91,8 +91,9 @@ export default function TeamPage() {
         <div className="wrap">
           <h2>The extended team</h2>
           <p className="lede">
-            Placeholder cards for the specialists we bring in project by
-            project. Profiles go live as the bench is re-engaged.
+            Consider this the trailer. Full cast list coming soon: these
+            are the specialists we bring in project by project, and
+            profiles go live as the bench is re-engaged.
           </p>
           <div className="roster">
             {roster.map((slot, i) => (

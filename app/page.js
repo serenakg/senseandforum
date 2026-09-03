@@ -3,7 +3,7 @@ import Label from "@/components/Label";
 import StepCard from "@/components/StepCard";
 import Marquee from "@/components/Marquee";
 import AccentCircle from "@/components/AccentCircle";
-import { homeServices, stages } from "@/lib/content";
+import { homeServices, stages, experienceLogos } from "@/lib/content";
 
 export const metadata = {
   title: "Sense & Forum: Service Design and Marketing Leadership",
@@ -20,13 +20,14 @@ export default function Home() {
         <div className="wrap">
           <Label>Service design &amp; marketing leadership</Label>
           <h1>
-            Sense &amp; Forum&reg; is a{" "}
+            Sense &amp; Forum<span className="reg-mark">&reg;</span> is a{" "}
             <em>service design and marketing leadership agency</em> for
             community led growth
           </h1>
           <p>
-            Built on the Delia Model&trade;: the thinking that makes sure
-            nothing, and no one, gets missed.
+            Built on the Delia Model&trade;, our framework for designing
+            inclusive community and marketing systems, so nothing (and no
+            one) gets missed.
           </p>
           <div className="actions">
             <Pill href="/contact" variant="solid">
@@ -65,6 +66,21 @@ export default function Home() {
           <Pill href="/services" variant="ghost-dark">
             See the details and pricing →
           </Pill>
+        </div>
+      </section>
+
+      {/* Partnering with */}
+      <section className="trust-bar" aria-labelledby="partners-heading">
+        <p className="trust-bar-label" id="partners-heading">
+          Partnering with
+        </p>
+        <div className="trust-bar-logos">
+          {experienceLogos.map((logo) => (
+            <div className="trust-bar-logo-card" key={logo.name}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img className="trust-bar-logo" src={logo.src} alt={logo.name} />
+            </div>
+          ))}
         </div>
       </section>
 

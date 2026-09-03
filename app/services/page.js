@@ -80,6 +80,7 @@ export default function ServicesPage() {
         <h2>
           Not sure which one you <em>need?</em>
         </h2>
+        <p>Neither did most of our clients, before we talked it through.</p>
         <Pill href="/contact" variant="solid-green">
           Book a discovery call
         </Pill>

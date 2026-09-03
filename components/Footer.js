@@ -8,10 +8,7 @@ export default function Footer() {
       <div style={{ marginBottom: 14 }}>
         <Logo variant="black" />
       </div>
-      <div>
-        We audit, build and run programmes, communities and events, and
-        step in as your fractional marketing leadership when you need it.
-      </div>
+      <div>No-nonsense community-led growth.</div>
       <nav className="footer-links" aria-label="Footer">
         <a href="/about">About</a>
         <a href="/services">Services</a>
@@ -23,6 +20,9 @@ export default function Footer() {
         <a href="/terms">Terms and Conditions</a>
         <a href="/privacy">Privacy Policy</a>
       </nav>
+      <div style={{ opacity: 0.6, fontSize: 12.5, marginTop: 4 }}>
+        Built with intention, and slightly too much coffee.
+      </div>
       <div style={{ opacity: 0.7, fontSize: 12 }}>
         © {new Date().getFullYear()} Sense &amp; Forum&reg;
       </div>
