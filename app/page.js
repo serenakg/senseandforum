@@ -3,7 +3,7 @@ import Label from "@/components/Label";
 import StepCard from "@/components/StepCard";
 import Marquee from "@/components/Marquee";
 import AccentCircle from "@/components/AccentCircle";
-import { homeServices, stages, experienceLogos } from "@/lib/content";
+import { homeServices, stages, experienceLogos, awards } from "@/lib/content";
 
 export const metadata = {
   title: "Sense & Forum: Fractional CMO and Service Design",
@@ -141,9 +141,30 @@ export default function Home() {
         </p>
         <div className="trust-bar-logos">
           {experienceLogos.map((logo) => (
-            <div className="trust-bar-logo-card" key={logo.name}>
+            <a
+              className="trust-bar-logo-card"
+              key={logo.name}
+              href={logo.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img className="trust-bar-logo" src={logo.src} alt={logo.name} />
+            </a>
+          ))}
+        </div>
+      </section>
+
+      {/* Awards */}
+      <section className="trust-bar" aria-labelledby="awards-heading">
+        <p className="trust-bar-label" id="awards-heading">
+          Award-winning
+        </p>
+        <div className="trust-bar-logos">
+          {awards.map((award) => (
+            <div className="awards-logo-card" key={award.name}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img className="awards-logo" src={award.src} alt={award.name} />
             </div>
           ))}
         </div>
