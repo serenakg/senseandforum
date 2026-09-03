@@ -20,20 +20,22 @@ export default function WorkPage() {
         accentLeft="mid-coral"
         accentRight="hot-pink"
       >
-        Two communities, two different problems: a migration under
-        pressure, and a launch from a blank page.
+        Real client engagements: the challenges they came to us with, what
+        we built, and the results that followed.
       </PageHero>
 
       <section className="section wrap" style={{ paddingBottom: 0 }}>
         {caseStudies.map((study) => (
           <article className="case-study" key={study.key}>
             <div className="case-study-head">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={study.logo}
-                alt={study.client}
-                className="case-study-logo"
-              />
+              {study.logo && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={study.logo}
+                  alt={study.client}
+                  className="case-study-logo"
+                />
+              )}
               <span className="label">{study.tag}</span>
             </div>
             <h2>{study.client}</h2>

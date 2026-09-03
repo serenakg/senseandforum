@@ -700,11 +700,37 @@ button {
   width: 96px;
   height: 96px;
   box-sizing: border-box;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+a.trust-bar-logo-card:hover,
+a.trust-bar-logo-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(1, 95, 42, 0.15);
 }
 
 .trust-bar-logo {
   height: 100%;
   width: 100%;
+  object-fit: contain;
+}
+
+.awards-logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 14px;
+  height: 96px;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.awards-logo {
+  height: 100%;
+  width: auto;
+  max-width: 180px;
   object-fit: contain;
 }
 
@@ -975,6 +1001,10 @@ button {
 .case-study {
   padding: 56px 0;
   border-top: 1px solid var(--deep-green);
+}
+
+.case-study:first-child {
+  border-top: none;
 }
 
 .case-study:last-child {
