@@ -42,9 +42,9 @@ export default function AboutPage() {
         <p className="lede">
           Most organisations treat community and belonging like things that
           happen after the real work: a social page, an occasional event, a
-          channel nobody quite checks. Sense &amp; Forum started because
-          that gap was costing people the very audience they&rsquo;d worked
-          hard to reach.
+          channel nobody quite checks. Sense &amp; Forum&reg; started
+          because that gap was costing people the very audience
+          they&rsquo;d worked hard to reach.
         </p>
         <p className="lede">
           Sense &amp; Forum&reg; is a service design and marketing

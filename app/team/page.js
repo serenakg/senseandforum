@@ -40,7 +40,7 @@ export default function TeamPage() {
             Forum&reg; is built on.
           </p>
           <p className="lede">
-            Alongside Sense &amp; Forum, Serena runs a{" "}
+            Alongside Sense &amp; Forum&reg;, Serena runs a{" "}
             <a
               href="https://www.madeformoremarketing.com/"
               target="_blank"
