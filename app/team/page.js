@@ -34,10 +34,10 @@ export default function TeamPage() {
         <div>
           <p className="lede">
             Serena has spent over 20 years in marketing, events and
-            community, building programmes and brands from the ground
-            up. A period of burnout forced a full reset. Out of that
-            rebuild came the Delia Model&trade;, the inclusion framework
-            Sense &amp; Forum&reg; is built on.
+            community, building programmes and brands from the ground up.
+            A period of burnout forced a full reset, and out of that came
+            the Delia Model&trade;, the inclusion framework Sense &amp;
+            Forum&reg; is built on.
           </p>
           <p className="lede">
             Alongside Sense &amp; Forum, Serena runs a{" "}
@@ -48,9 +48,9 @@ export default function TeamPage() {
             >
               separate fractional CMO practice
             </a>{" "}
-            with a specialism in femtech and inclusive brand-building, her
-            moat. She works more broadly too, with any organisation
-            genuinely building toward inclusion.
+            with a specialism in femtech and inclusive brand-building, the
+            space she knows best. She works more broadly too, with any
+            organisation genuinely building toward inclusion.
           </p>
           <ul className="credentials-list">
             {founderCredentials.map((credential) => (

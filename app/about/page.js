@@ -27,11 +27,11 @@ export default function AboutPage() {
         accentLeft="mid-coral"
         accentRight="hot-pink"
       >
-        We design no-nonsense growth systems for founders, teams and
-        movements who want to build with intention. Brand strategy,
-        community architecture, campaign systems: we work with
-        organisations ready to lead with clarity and move with their
-        people.
+        We work with people already doing good things, brands, communities,
+        teams, and help build the systems, structure and detail that let
+        that work land properly. Brand strategy, community architecture,
+        the processes running quietly behind the scenes: we look at all of
+        it, together.
       </PageHero>
 
       <section className="section wrap">
@@ -40,17 +40,18 @@ export default function AboutPage() {
           Engagement shouldn&rsquo;t be <em>an afterthought</em>
         </h2>
         <p className="lede">
-          Most organisations treat community and belonging as things that
+          Most organisations treat community and belonging like things that
           happen after the real work: a social page, an occasional event, a
-          channel nobody checks. Sense &amp; Forum started because that gap
-          kept costing our clients the people they were trying to reach.
+          channel nobody quite checks. Sense &amp; Forum started because
+          that gap was costing people the very audience they&rsquo;d worked
+          hard to reach.
         </p>
         <p className="lede">
           Sense &amp; Forum&reg; is a service design and marketing
-          leadership agency for community-led growth. We audit your
-          programme, community or event. We redesign it. We build it from
-          scratch. Or we step in as your fractional marketing leadership
-          when you need direction without a full-time hire.
+          leadership agency for community-led growth. We take a close look
+          at your programme, community or event, then redesign it, build it
+          from scratch, or step in as fractional marketing leadership when
+          you need senior judgement without a full-time hire.
         </p>
         <p className="lede">
           We work with founders, teams and movements who want the next
@@ -90,7 +91,7 @@ export default function AboutPage() {
             actually is
           </li>
           <li>Inclusion isn&rsquo;t a value statement, it&rsquo;s a design step</li>
-          <li>The fix goes into the rebuild, not a footnote after launch</li>
+          <li>What we find goes into the rebuild, not a footnote after launch</li>
         </ul>
         <p className="lede">
           It&rsquo;s why our clients don&rsquo;t just grow: they grow with

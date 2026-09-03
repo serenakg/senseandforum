@@ -8,7 +8,7 @@ import { homeServices, stages } from "@/lib/content";
 export const metadata = {
   title: "Sense & Forum: Service Design and Marketing Leadership",
   description:
-    "Sense & Forum designs no-nonsense growth systems for founders, teams and movements: community, programme and event design, audits and rebuilds, and senior marketing leadership. Built on the Delia Model™.",
+    "Sense & Forum designs thoughtful growth systems for founders, teams and movements: community, programme and event design, audits and rebuilds, and senior marketing leadership. Built on the Delia Model™.",
 };
 
 export default function Home() {
@@ -25,8 +25,8 @@ export default function Home() {
             community led growth
           </h1>
           <p>
-            Built on the Delia Model&trade;. No fluff, no shortcuts: just
-            growth systems built with intention.
+            Built on the Delia Model&trade;: the thinking that makes sure
+            nothing, and no one, gets missed.
           </p>
           <div className="actions">
             <Pill href="/contact" variant="solid">
@@ -88,8 +88,8 @@ export default function Home() {
         <p className="lede">
           Audit and review, then design, then implement, then prove it and
           review it. Every engagement runs through the Delia Model&trade;:
-          we check who a design leaves out, on purpose or by accident, and
-          fix that as part of the rebuild.
+          we notice who a design leaves out, on purpose or by accident, and
+          design them back in from the start.
         </p>
         <div className="steps">
           {stages.map((stage) => (
@@ -117,8 +117,8 @@ export default function Home() {
             emails, more reminders. What&rsquo;s actually missing is the
             design: specifically, who the format quietly excludes.
             That&rsquo;s the inclusion lens we bring to every engagement,
-            built on the Delia Model&trade;: we make the intangible
-            tangible, and fix what we find.
+            built on the Delia Model&trade;: we notice what&rsquo;s easy to
+            miss, and build it into the redesign.
           </p>
           <div className="video-embed">
             <iframe

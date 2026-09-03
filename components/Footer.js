@@ -10,7 +10,7 @@ export default function Footer() {
       </div>
       <div>
         We audit, build and run programmes, communities and events, and
-        step in as your fractional marketing leadership.
+        step in as your fractional marketing leadership when you need it.
       </div>
       <nav className="footer-links" aria-label="Footer">
         <a href="/about">About</a>

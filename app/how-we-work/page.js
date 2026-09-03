@@ -21,8 +21,8 @@ export default function HowWeWorkPage() {
         accentRight="soft-pink"
       >
         Audit and Review, Design, Implement, Prove It and Review It. The
-        same method whether we&rsquo;re fixing one programme or building a
-        community from scratch.
+        same method whether we&rsquo;re strengthening one programme or
+        building a community from scratch.
       </PageHero>
 
       <section className="section wrap">

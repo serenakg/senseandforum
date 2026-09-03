@@ -1,7 +1,7 @@
 const words = [
   "Community-led growth",
   "The Delia Model™",
-  "No-nonsense growth systems",
+  "Thoughtful growth systems",
   "Built with intention",
 ];
 
