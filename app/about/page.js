@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "About",
   description:
-    "Sense & Forum designs programmes, communities, events and marketing, and steps in as senior marketing leadership: client-facing, external work, built on the Delia Model™. Here's our story, our values, and who's building it.",
+    "Sense & Forum designs programmes, communities, events and marketing, and steps in as senior marketing leadership, with a specialism in femtech and female-led organisations. Built on the Delia Model™. Here's our story, our values, and who's building it.",
   path: "/about",
 });
 
@@ -48,8 +48,9 @@ export default function AboutPage() {
         </p>
         <p className="lede">
           Sense &amp; Forum&reg; is a service design and marketing
-          leadership agency for community-led growth. We take a close look
-          at your programme, community or event, then redesign it, build it
+          leadership agency for community-led growth, with a specialism in
+          femtech and female-led organisations. We take a close look at
+          your programme, community or event, then redesign it, build it
           from scratch, or step in as fractional marketing leadership when
           you need senior judgement without a full-time hire.
         </p>
@@ -59,6 +60,11 @@ export default function AboutPage() {
           engagement is staffed by a dedicated fractional CMO and a project
           manager, plus freelance specialists as needed: social, copy,
           events delivery, email marketing and production.
+        </p>
+        <p className="lede">
+          We design marketing systems that don&rsquo;t run on hustle:
+          audits and rebuilds that make room for real life, not just
+          quarterly targets.
         </p>
       </section>
 
