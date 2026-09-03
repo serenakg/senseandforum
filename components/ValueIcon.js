@@ -1,17 +1,11 @@
-import { CommunityIcon } from "./icons";
-
 const imageMap = {
-  celebration: "/brand/icons/celebration.webp",
-  creativity: "/brand/icons/creativity.webp",
-  communication: "/brand/icons/communication.webp",
-  care: "/brand/icons/care.webp",
+  diversity: "/brand/icons/extra/connection.webp",
+  sustainability: "/brand/icons/extra/manage.webp",
+  safety: "/brand/icons/extra/forecast.webp",
+  "people-first": "/brand/icons/extra/build.webp",
 };
 
 export default function ValueIcon({ name, className = "icon" }) {
-  if (name === "community") {
-    return <CommunityIcon className={className} />;
-  }
-
   const src = imageMap[name];
   if (!src) return null;
 

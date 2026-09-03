@@ -1,14 +1,16 @@
 import Logo from "./Logo";
+import AccentCircle from "./AccentCircle";
 
 export default function Footer() {
   return (
     <footer className="site-footer">
+      <AccentCircle left="sun-amber" right="mid-coral" className="footer-accent" />
       <div style={{ marginBottom: 14 }}>
-        <Logo />
+        <Logo variant="black" />
       </div>
       <div>
-        We design programmes, communities and events, and step in as
-        marketing leadership when you need it.
+        We audit, build and run programmes, communities and events, and
+        step in as your fractional marketing leadership when you need it.
       </div>
       <nav className="footer-links" aria-label="Footer">
         <a href="/about">About</a>
@@ -17,8 +19,12 @@ export default function Footer() {
         <a href="/team">Team</a>
         <a href="/contact">Contact</a>
       </nav>
+      <nav className="footer-legal" aria-label="Legal">
+        <a href="/terms">Terms and Conditions</a>
+        <a href="/privacy">Privacy Policy</a>
+      </nav>
       <div style={{ opacity: 0.7, fontSize: 12 }}>
-        © {new Date().getFullYear()} Sense &amp; Forum
+        © {new Date().getFullYear()} Sense &amp; Forum&reg;
       </div>
     </footer>
   );

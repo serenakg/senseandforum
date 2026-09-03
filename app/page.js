@@ -1,12 +1,14 @@
 import Pill from "@/components/Pill";
 import Label from "@/components/Label";
 import StepCard from "@/components/StepCard";
-import { homeServices, stages, experienceLogos, clientLogos } from "@/lib/content";
+import Marquee from "@/components/Marquee";
+import AccentCircle from "@/components/AccentCircle";
+import { homeServices, stages } from "@/lib/content";
 
 export const metadata = {
   title: "Sense & Forum: Service Design and Marketing Leadership",
   description:
-    "Sense & Forum designs programmes, communities and events, and steps in as senior marketing leadership when you need it. Built on the Delia Model: our approach to inclusion for everyone.",
+    "Sense & Forum designs thoughtful growth systems for founders, teams and movements: community, programme and event design, audits and rebuilds, and senior marketing leadership. Built on the Delia Model™.",
 };
 
 export default function Home() {
@@ -14,15 +16,17 @@ export default function Home() {
     <>
       {/* 1. Who we are */}
       <section className="hero">
+        <AccentCircle left="mid-coral" right="hot-pink" className="hero-accent" />
         <div className="wrap">
+          <Label>Service design &amp; marketing leadership</Label>
           <h1>
-            Sense &amp; Forum is a{" "}
+            Sense &amp; Forum&reg; is a{" "}
             <em>service design and marketing leadership agency</em> for
             community led growth
           </h1>
           <p>
-            Built on the Delia Model: inclusion for everyone. No fluff, no
-            papering over symptoms, we go straight for the design.
+            Built on the Delia Model&trade;: the thinking that makes sure
+            nothing, and no one, gets missed.
           </p>
           <div className="actions">
             <Pill href="/contact" variant="solid">
@@ -32,16 +36,18 @@ export default function Home() {
         </div>
       </section>
 
+      <Marquee />
+
       {/* 2. What we do */}
       <section className="services" aria-labelledby="what-we-do-heading">
         <div className="wrap">
           <Label>What we do</Label>
           <h2 id="what-we-do-heading">
-            Four ways to <em>work with us</em>
+            Four ways to <em>build with intention</em>
           </h2>
           <p className="lede">
-            We design programmes, communities and events, and we step in
-            as senior marketing leadership when you need it.
+            We design community-led growth systems, then step in as senior
+            marketing leadership to run them. End to end, with confidence.
           </p>
           <div>
             {homeServices.map((service) => (
@@ -67,37 +73,9 @@ export default function Home() {
         <div className="wrap">
           <Label onDark>Who we serve</Label>
           <h2 id="who-we-serve-heading">
-            Startups. Scale-ups. Companies. Nonprofits and community
-            organisations.
+            Founders, teams and movements ready to lead with clarity.
           </h2>
           <p>Ongoing work or a single event: we work both ways.</p>
-        </div>
-      </section>
-
-      {/* Trust bar */}
-      <section className="trust-bar" aria-labelledby="trust-bar-heading">
-        <div className="wrap">
-          <p id="trust-bar-heading" className="trust-bar-label">
-            Experience &amp; partnering with
-          </p>
-          <div className="trust-bar-logos">
-            {experienceLogos.map((logo) => (
-              <div className="trust-bar-logo-card" key={logo.name}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={logo.src} alt={logo.name} className="trust-bar-logo" />
-              </div>
-            ))}
-          </div>
-
-          <p className="trust-bar-label trust-bar-label-second">Past clients</p>
-          <div className="trust-bar-logos">
-            {clientLogos.map((logo) => (
-              <div className="trust-bar-logo-card" key={logo.name}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={logo.src} alt={logo.name} className="trust-bar-logo" />
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -108,10 +86,10 @@ export default function Home() {
           How we do it
         </h2>
         <p className="lede">
-          Audit, then redesign, then implement, then prove it with data.
-          Every engagement runs through the Delia Model: we check who a
-          design leaves out, on purpose or by accident, and fix that as
-          part of the rebuild.
+          Audit and review, then design, then implement, then prove it and
+          review it. Every engagement runs through the Delia Model&trade;:
+          we notice who a design leaves out, on purpose or by accident, and
+          design them back in from the start.
         </p>
         <div className="steps">
           {stages.map((stage) => (
@@ -127,18 +105,20 @@ export default function Home() {
 
       {/* 5. Why we do it */}
       <section className="why" aria-labelledby="why-we-do-it-heading">
+        <AccentCircle left="soft-lime" right="soft-pink" className="why-accent" />
         <div className="wrap">
           <Label>Why we do it</Label>
           <h2 id="why-we-do-it-heading">
-            Most engagement problems get <em>blamed on content</em>
+            Most engagement gaps aren&rsquo;t a <em>content issue</em>
           </h2>
           <p>
             A quiet channel, a fading list, a workshop that fills once and
-            never comes back: most organisations call that a content
-            problem and try to fix it with more posts, more emails, more
-            reminders. It&rsquo;s usually a design problem, specifically
-            who the format quietly excludes. That&rsquo;s what Sense &amp;
-            Forum exists to catch, and to fix.
+            never comes back: most organisations reach for more posts, more
+            emails, more reminders. What&rsquo;s actually missing is the
+            design: specifically, who the format quietly excludes.
+            That&rsquo;s the inclusion lens we bring to every engagement,
+            built on the Delia Model&trade;: we notice what&rsquo;s easy to
+            miss, and build it into the redesign.
           </p>
           <div className="video-embed">
             <iframe
@@ -153,7 +133,7 @@ export default function Home() {
 
       <section className="cta">
         <h2>
-          Ready to build <em>this properly?</em>
+          Ready to build <em>this with intention?</em>
         </h2>
         <Pill href="/contact" variant="solid-green">
           Book a discovery call

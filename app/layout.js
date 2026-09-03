@@ -1,21 +1,28 @@
-import { Fraunces, Poppins } from "next/font/google";
+import { Lora, Open_Sans, Oooh_Baby } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-const fraunces = Fraunces({
+const lora = Lora({
   subsets: ["latin"],
   weight: ["500", "600", "700"],
   style: ["normal", "italic"],
-  variable: "--font-fraunces",
+  variable: "--font-lora",
   display: "swap",
 });
 
-const poppins = Poppins({
+const openSans = Open_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-poppins",
+  variable: "--font-open-sans",
+  display: "swap",
+});
+
+const ooohBaby = Oooh_Baby({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-script",
   display: "swap",
 });
 
@@ -24,7 +31,7 @@ const siteUrl = "https://senseandforum.com";
 const siteTitle =
   "Sense & Forum: Service Design and Marketing Leadership";
 const siteDescription =
-  "Sense & Forum designs programmes, communities and events, and steps in as senior marketing leadership when you need it. Built on the Delia Model: our approach to inclusion for everyone. For startups, scale-ups, companies, nonprofits, community organisations and one-off events.";
+  "Sense & Forum designs thoughtful growth systems: community, programme and event design, audits and rebuilds, and senior marketing leadership. Built on the Delia Model™: our approach to inclusion for everyone. For founders, teams and movements ready to lead with clarity.";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -59,7 +66,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${poppins.variable}`}>
+    <html
+      lang="en"
+      className={`${lora.variable} ${openSans.variable} ${ooohBaby.variable}`}
+    >
       <body>
         <a className="skip-link" href="#main">
           Skip to content

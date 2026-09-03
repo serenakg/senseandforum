@@ -14,10 +14,11 @@ export default function ServicesPage() {
   return (
     <>
       <PageHero
-        bg="green"
-        onDark
+        bg="soft-pink"
         eyebrow="What we offer"
         title="So how can Sense & Forum support you?"
+        accentLeft="sun-amber"
+        accentRight="mid-coral"
       >
         Four ways in, depending on how much you already know and how fast
         you need to move.
@@ -32,6 +33,29 @@ export default function ServicesPage() {
               </div>
               <h2>{service.title}</h2>
               <p className="desc">{service.fullDescription}</p>
+              <ul className="svc-full-includes">
+                {service.whatYouGet.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+              <div className="svc-fit">
+                <div>
+                  <h3>This is for you if</h3>
+                  <ul className="svc-fit-list svc-fit-yes">
+                    {service.forYouIf.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3>This isn&rsquo;t for you if</h3>
+                  <ul className="svc-fit-list svc-fit-no">
+                    {service.notForYouIf.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
               <div className="meta">
                 <div className="meta-item">
                   <div className="k">Format</div>
@@ -40,12 +64,6 @@ export default function ServicesPage() {
                 <div className="meta-item">
                   <div className="k">Pricing (benchmark)</div>
                   <div className="v">{service.price}</div>
-                </div>
-                <div className="meta-item" style={{ flex: "1 1 260px" }}>
-                  <div className="k">Who it&rsquo;s for</div>
-                  <div className="v" style={{ fontWeight: 500 }}>
-                    {service.whoFor}
-                  </div>
                 </div>
               </div>
             </article>
@@ -60,7 +78,7 @@ export default function ServicesPage() {
 
       <section className="cta">
         <h2>
-          Not sure which one you need<em>?</em>
+          Not sure which one you <em>need?</em>
         </h2>
         <Pill href="/contact" variant="solid-green">
           Book a discovery call

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#264E46" />
-  <circle cx="1080" cy="80" r="120" fill="#EF614B" opacity="0.9" />
-  <circle cx="120" cy="560" r="160" fill="#BEEADF" opacity="0.9" />
-  <rect x="90" y="470" width="220" height="60" rx="30" fill="#FDE382" opacity="0.9" />
-  <text x="100" y="300" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="72" letter-spacing="2" fill="#EF614B">SENSE</text>
-  <text x="100" y="380" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="72" letter-spacing="2" fill="#EF614B">&amp; FORUM</text>
-  <text x="102" y="430" font-family="Poppins, Arial, sans-serif" font-weight="500" font-size="26" fill="#F0EFEA">Service design for community-led growth</text>
+  <rect width="1200" height="630" fill="#015F2A" />
+  <circle cx="1080" cy="80" r="120" fill="#EC6A2C" opacity="0.9" />
+  <circle cx="120" cy="560" r="160" fill="#DEEA9E" opacity="0.9" />
+  <rect x="90" y="470" width="220" height="60" rx="30" fill="#E8487A" opacity="0.9" />
+  <text x="100" y="300" font-family="'Open Sans', Arial, sans-serif" font-weight="700" font-size="72" letter-spacing="2" fill="#E8487A">SENSE</text>
+  <text x="100" y="380" font-family="'Open Sans', Arial, sans-serif" font-weight="700" font-size="72" letter-spacing="2" fill="#E8487A">&amp; FORUM</text>
+  <text x="102" y="430" font-family="'Open Sans', Arial, sans-serif" font-weight="500" font-size="26" fill="#F0EFEA">Service design for community-led growth</text>
 </svg>

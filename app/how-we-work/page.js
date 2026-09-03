@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "How We Work",
   description:
-    "The Sense & Forum method: Audit, Redesign, Implement, Prove It. Plus the three patterns we keep solving for across scale-ups, community organisations, and one-off events.",
+    "The Sense & Forum method: Audit, Redesign, Implement, Prove It. Plus the patterns we keep solving for across scale-ups, community organisations, one-off events and startups.",
   path: "/how-we-work",
 });
 
@@ -14,13 +14,15 @@ export default function HowWeWorkPage() {
   return (
     <>
       <PageHero
-        bg="mint"
+        bg="amber-pale"
         eyebrow="Our method"
         title="Four stages, one architecture"
+        accentLeft="soft-lime"
+        accentRight="soft-pink"
       >
-        Audit, Redesign, Implement, Prove It. The same method whether
-        we&rsquo;re fixing one programme or building a community from
-        scratch.
+        Audit and Review, Design, Implement, Prove It and Review It. The
+        same method whether we&rsquo;re strengthening one programme or
+        building a community from scratch.
       </PageHero>
 
       <section className="section wrap">
@@ -45,7 +47,7 @@ export default function HowWeWorkPage() {
       <section className="proof">
         <div className="wrap">
           <h2>
-            Three patterns we keep <em>solving for</em>
+            Patterns we keep <em>solving for</em>
           </h2>
           {archetypes.map((arch) => (
             <div className="arch-full" key={arch.tag}>
@@ -62,7 +64,7 @@ export default function HowWeWorkPage() {
         </div>
       </section>
 
-      <section className="cta">
+      <section className="cta cta-coral">
         <h2>
           See what this looks like for <em>your team</em>
         </h2>

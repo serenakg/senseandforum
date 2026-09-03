@@ -8,19 +8,72 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Meet the Team",
   description:
-    "The core team behind Sense & Forum, and the story behind founder Serena Gasparini and the Delia Model.",
+    "The core team behind Sense & Forum, and the story behind founder Serena Gasparini and the Delia Model™.",
   path: "/team",
 });
 
 export default function TeamPage() {
   return (
     <>
-      <PageHero bg="mint" eyebrow="Who's building it" title="Meet the team">
+      <PageHero
+        bg="soft-lime"
+        eyebrow="Who's building it"
+        title="Meet the team"
+        accentLeft="sun-amber"
+        accentRight="hot-pink"
+      >
         A small core team, extended by the specialists we bring in project
         by project.
       </PageHero>
 
+      <section className="section wrap">
+        <Label>Meet the founder</Label>
+        <h2>
+          Serena Gasparini: the story behind <em>the Delia Model&trade;</em>
+        </h2>
+        <div>
+          <p className="lede">
+            Serena has spent over 20 years in marketing, events and
+            community, building programmes and brands from the ground up.
+            A period of burnout forced a full reset, and out of that came
+            the Delia Model&trade;, the inclusion framework Sense &amp;
+            Forum&reg; is built on.
+          </p>
+          <p className="lede">
+            Alongside Sense &amp; Forum&reg;, Serena runs a{" "}
+            <a
+              href="https://www.madeformoremarketing.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              separate fractional CMO practice
+            </a>{" "}
+            with a specialism in femtech and inclusive brand-building, the
+            space she knows best. She works more broadly too, with any
+            organisation genuinely building toward inclusion.
+          </p>
+          <ul className="credentials-list">
+            {founderCredentials.map((credential) => (
+              <li key={credential}>{credential}</li>
+            ))}
+          </ul>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/brand/team/serena.jpg"
+            alt="Serena Gasparini"
+            className="founder-photo"
+          />
+        </div>
+      </section>
+
       <section className="section wrap" style={{ paddingBottom: 0 }}>
+        <Label>The core team</Label>
+        <h2>Dedicated CMO, project manager, and freelance specialists</h2>
+        <p className="lede">
+          Every engagement is staffed by a dedicated fractional CMO and a
+          project manager, plus freelance specialists as needed: social,
+          copy, events delivery, email marketing and production.
+        </p>
         <div className="team-grid">
           {coreTeam.map((person) => (
             <div className="team-card confirmed" key={person.name}>
@@ -34,45 +87,19 @@ export default function TeamPage() {
         </div>
       </section>
 
-      <section className="section wrap">
-        <Label>Meet the founder</Label>
-        <h2>
-          Serena Gasparini: the story behind <em>the Delia Model</em>
-        </h2>
-        <p className="lede">
-          Serena has spent over 20 years in marketing, events and
-          community, building and rebuilding teams, programmes and brands
-          from the ground up. A period of burnout forced a full reset. Out
-          of that rebuild came the Delia Model, the inclusion framework
-          Sense &amp; Forum is built on.
-        </p>
-        <p className="lede">
-          Alongside Sense &amp; Forum, Serena runs a separate fractional
-          CMO practice with a specialism in femtech and women+ brands, her
-          moat. She works more broadly too, with any organisation
-          genuinely building toward inclusion.
-        </p>
-        <ul className="credentials-list">
-          {founderCredentials.map((credential) => (
-            <li key={credential}>{credential}</li>
-          ))}
-        </ul>
-      </section>
-
       <section className="directory">
         <div className="wrap">
-          <h2>The extended bench</h2>
+          <h2>The extended team</h2>
           <p className="lede">
-            Specialists we bring in project by project. Placeholder
-            roster: profiles go live as the bench is re-engaged.
+            Placeholder cards for the specialists we bring in project by
+            project. Profiles go live as the bench is re-engaged.
           </p>
           <div className="roster">
             {roster.map((slot, i) => (
               <DirectoryCard
                 key={slot.role}
                 role={slot.role}
-                status={slot.status}
-                initials={slot.initials}
+                icon={slot.icon}
                 colorIndex={i}
               />
             ))}
