@@ -977,6 +977,10 @@ button {
   border-top: 1px solid var(--deep-green);
 }
 
+.case-study:first-child {
+  border-top: none;
+}
+
 .case-study:last-child {
   border-bottom: 1px solid var(--deep-green);
 }

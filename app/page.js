@@ -6,9 +6,9 @@ import AccentCircle from "@/components/AccentCircle";
 import { homeServices, stages, experienceLogos } from "@/lib/content";
 
 export const metadata = {
-  title: "Sense & Forum: Service Design and Marketing Leadership",
+  title: "Sense & Forum: Fractional CMO and Service Design",
   description:
-    "Sense & Forum designs thoughtful growth systems for founders, teams and movements: community, programme and event design, audits and rebuilds, and senior marketing leadership. Built on the Delia Model™.",
+    "Fractional CMO services for founders who want senior marketing leadership without a full-time hire. Sense & Forum also designs community, programme and event systems: audits, rebuilds, and growth built on the Delia Model™.",
 };
 
 export default function Home() {
@@ -18,10 +18,10 @@ export default function Home() {
       <section className="hero">
         <AccentCircle left="mid-coral" right="hot-pink" className="hero-accent" />
         <div className="wrap">
-          <Label>Service design &amp; marketing leadership</Label>
+          <Label>Fractional CMO &amp; service design</Label>
           <h1>
             Sense &amp; Forum<span className="reg-mark">&reg;</span> is a{" "}
-            <em>service design and marketing leadership agency</em> for
+            <em>fractional CMO and service design agency</em> for
             community led growth
           </h1>
           <p>
@@ -66,21 +66,6 @@ export default function Home() {
           <Pill href="/services" variant="ghost-dark">
             See the details and pricing →
           </Pill>
-        </div>
-      </section>
-
-      {/* Partnering with */}
-      <section className="trust-bar" aria-labelledby="partners-heading">
-        <p className="trust-bar-label" id="partners-heading">
-          Partnering with
-        </p>
-        <div className="trust-bar-logos">
-          {experienceLogos.map((logo) => (
-            <div className="trust-bar-logo-card" key={logo.name}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img className="trust-bar-logo" src={logo.src} alt={logo.name} />
-            </div>
-          ))}
         </div>
       </section>
 
@@ -146,6 +131,21 @@ export default function Home() {
               allowFullScreen
             />
           </div>
+        </div>
+      </section>
+
+      {/* Partnering with */}
+      <section className="trust-bar" aria-labelledby="partners-heading">
+        <p className="trust-bar-label" id="partners-heading">
+          Partnering with
+        </p>
+        <div className="trust-bar-logos">
+          {experienceLogos.map((logo) => (
+            <div className="trust-bar-logo-card" key={logo.name}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img className="trust-bar-logo" src={logo.src} alt={logo.name} />
+            </div>
+          ))}
         </div>
       </section>
 
