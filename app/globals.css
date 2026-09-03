@@ -24,6 +24,25 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-color: var(--bright-orange) var(--canvas);
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--canvas);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bright-orange);
+  border-radius: 8px;
+  border: 3px solid var(--canvas);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--deep-green);
 }
 
 body {
