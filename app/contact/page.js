@@ -29,7 +29,8 @@ export default function ContactPage() {
           <h2>Book a discovery call</h2>
           <p>
             Fill out this short form first: it&rsquo;s how we work out if
-            we&rsquo;re a fit before we get a call in the calendar.
+            we&rsquo;re a fit before we get a call in the calendar. Short
+            form, no trick questions.
           </p>
           <a
             className="pill pill-solid-green"

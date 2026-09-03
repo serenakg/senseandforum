@@ -68,6 +68,10 @@ export default function AboutPage() {
           The Delia Model&trade;
         </h2>
         <p className="lede">
+          <em>No clipboard. No red pen. Just us, looking closely with
+          care.</em>
+        </p>
+        <p className="lede">
           Delia takes its name from the space Serena wished existed when
           she started out: a home for the founders, dreamers and doers
           building bold, community-first brands, especially in femtech
