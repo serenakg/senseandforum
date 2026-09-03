@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Contact",
   description:
-    "Book a discovery call with Sense & Forum, or send us a message about what you're working on.",
+    "Get in touch with Sense & Forum: send us a message about what you're working on, or find our contact details and location.",
   path: "/contact",
 });
 
@@ -23,25 +23,6 @@ export default function ContactPage() {
         Tell us what you&rsquo;re working on. If it&rsquo;s a fit, we&rsquo;ll
         set up a discovery call.
       </PageHero>
-
-      <section className="section wrap" style={{ paddingBottom: 0 }}>
-        <div className="contact-card" style={{ maxWidth: 640 }}>
-          <h2>Book a discovery call</h2>
-          <p>
-            Fill out this short form first: it&rsquo;s how we work out if
-            we&rsquo;re a fit before we get a call in the calendar. Short
-            form, no trick questions.
-          </p>
-          <a
-            className="pill pill-solid-green"
-            href="https://forms.gle/h2QPvd8PRaNFUNfWA"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Fill out the discovery call form →
-          </a>
-        </div>
-      </section>
 
       <section className="section wrap" style={{ paddingBottom: 0 }}>
         <Label>Send us a message</Label>
@@ -62,11 +43,14 @@ export default function ContactPage() {
 
       <section className="section wrap">
         <div className="contact-card contact-card-centered">
-          <h2>Prefer to skip the form?</h2>
-          <p>Email us directly and we&rsquo;ll route it to the right person.</p>
-          <a className="pill pill-solid-green" href="mailto:hello@senseandforum.com">
-            Email hello@senseandforum.com
-          </a>
+          <h2>Contact details</h2>
+          <p>
+            Email:{" "}
+            <a href="mailto:hello@senseandforum.com">
+              hello@senseandforum.com
+            </a>
+          </p>
+          <p>Based in Pafos, Cyprus.</p>
         </div>
       </section>
     </>

@@ -40,14 +40,7 @@ export default function TeamPage() {
             Forum&reg; is built on.
           </p>
           <p className="lede">
-            Alongside Sense &amp; Forum&reg;, Serena runs a{" "}
-            <a
-              href="https://www.madeformoremarketing.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              separate fractional CMO practice
-            </a>{" "}
+            Alongside Sense &amp; Forum&reg;, Serena runs FemNEST, a startup
             with a specialism in femtech and inclusive brand-building, the
             space she knows best. She works more broadly too, with any
             organisation genuinely building toward inclusion.

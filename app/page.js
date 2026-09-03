@@ -18,16 +18,16 @@ export default function Home() {
       <section className="hero">
         <AccentCircle left="mid-coral" right="hot-pink" className="hero-accent" />
         <div className="wrap">
-          <Label>Fractional CMO &amp; service design</Label>
+          <Label>Service design &amp; marketing</Label>
           <h1>
             Sense &amp; Forum<span className="reg-mark">&reg;</span> is a{" "}
-            <em>fractional CMO and service design agency</em> for
-            community led growth
+            <em>service design and marketing agency</em> for
+            community-led growth
           </h1>
           <p>
-            Built on the Delia Model&trade;, our framework for designing
-            inclusive community and marketing systems, so nothing (and no
-            one) gets missed.
+            Senior marketing leadership and community strategy, minus the
+            full-time hire: we build the system, then help you run it, so
+            nothing (and no one) gets missed.
           </p>
           <div className="actions">
             <Pill href="/contact" variant="solid">
