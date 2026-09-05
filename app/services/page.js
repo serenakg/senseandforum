@@ -21,7 +21,8 @@ export default function ServicesPage() {
         accentRight="mid-coral"
       >
         Four ways in, depending on how much you already know and how fast
-        you need to move.
+        you need to move. Community you own outperforms reach you&rsquo;re
+        renting.
       </PageHero>
 
       <section className="services">
@@ -56,6 +57,11 @@ export default function ServicesPage() {
                   </ul>
                 </div>
               </div>
+              {service.closingNote && (
+                <p className="desc" style={{ fontStyle: "italic" }}>
+                  {service.closingNote}
+                </p>
+              )}
               <div className="meta">
                 <div className="meta-item">
                   <div className="k">Format</div>

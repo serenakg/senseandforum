@@ -35,15 +35,18 @@ export default function TeamPage() {
           <p className="lede">
             Serena has spent over 20 years in marketing, events and
             community, building programmes and brands from the ground up.
-            A period of burnout forced a full reset, and out of that came
-            the Delia Model&trade;, the inclusion framework Sense &amp;
-            Forum&reg; is built on.
+            A period of burnout forced a full reset &mdash; and forced her
+            to name a pattern she&rsquo;d been seeing for eight years:
+            programmes and marketing built for women, but never shaped by
+            them. The DELIA Model&trade; is what came out of that reset,
+            and it&rsquo;s what Sense &amp; Forum&reg; is built on.
           </p>
           <p className="lede">
-            Alongside Sense &amp; Forum&reg;, Serena runs FemNEST, a startup
-            with a specialism in femtech and inclusive brand-building, the
-            space she knows best. She works more broadly too, with any
-            organisation genuinely building toward inclusion.
+            Alongside Sense &amp; Forum&reg;, Serena runs FemNEST, a
+            financial wellness platform mapping women&rsquo;s health and
+            life transitions to their financial outcomes. She works more
+            broadly too, with any organisation genuinely building toward
+            inclusion.
           </p>
           <ul className="credentials-list">
             {founderCredentials.map((credential) => (

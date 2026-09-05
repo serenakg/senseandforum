@@ -18,15 +18,15 @@ export default function Home() {
       <section className="hero">
         <AccentCircle left="mid-coral" right="hot-pink" className="hero-accent" />
         <div className="wrap">
-          <Label>Service design &amp; marketing</Label>
+          <Label>Community-led marketing</Label>
           <h1>
             Sense &amp; Forum<span className="reg-mark">&reg;</span> is a{" "}
-            <em>service design and marketing agency</em> for
-            community-led growth
+            <em>community-led marketing agency</em>
           </h1>
           <p>
-            Senior marketing leadership and community strategy, minus the
-            full-time hire: we build the system, then help you run it, so
+            Reach that doesn&rsquo;t depend on an algorithm&rsquo;s mood. We
+            build the system, then help you run it: senior marketing
+            leadership and community strategy, minus the full-time hire, so
             nothing (and no one) gets missed.
           </p>
           <div className="actions">
