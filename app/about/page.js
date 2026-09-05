@@ -47,12 +47,10 @@ export default function AboutPage() {
           they&rsquo;d worked hard to reach.
         </p>
         <p className="lede">
-          Sense &amp; Forum&reg; is a service design and marketing
-          leadership agency for community-led growth, with a specialism in
-          femtech and female-led organisations. We take a close look at
-          your programme, community or event, then redesign it, build it
-          from scratch, or step in as fractional marketing leadership when
-          you need senior judgement without a full-time hire.
+          Sense &amp; Forum&reg; is a community-led marketing agency.
+          Femtech and female-led organisations are where we&rsquo;ve built
+          the deepest track record. But the method works for anyone whose
+          growth depends on community, not just a media budget.
         </p>
         <p className="lede">
           We work with founders, teams and movements who want the next

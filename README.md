@@ -17,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000).
 - `/services` — Services (Community/Engagement Audit + Redesign, Fractional Community/Growth Support, Build Your Community, Programme or Event, Launch Partner fractional CMO work)
 - `/how-we-work` — Method + case archetypes (secondary page)
 - `/about` — Company story, placeholder team, brand values
-- `/team` — Meet the Team: real named core team (Serena, Elenia, Mai, Chanelle), a Meet the Founder section on Serena, plus the extended freelancer bench (formerly `/freelancers`)
+- `/team` — Meet the Team: real named core team (Serena, Elina, Mai, Chanelle), a Meet the Founder section on Serena, plus the extended freelancer bench (formerly `/freelancers`)
 - `/contact` — Discovery call / contact form (posts to `/api/contact`, currently a placeholder endpoint)
 
 ## Design system
