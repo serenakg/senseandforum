@@ -35,8 +35,8 @@ export default function TeamPage() {
           <p className="lede">
             Serena has spent over 20 years in marketing, events and
             community, building programmes and brands from the ground up.
-            A period of burnout forced a full reset &mdash; and forced her
-            to name a pattern she&rsquo;d been seeing for eight years:
+            A period of burnout forced a full reset, and forced her to
+            name a pattern she&rsquo;d been seeing for eight years:
             programmes and marketing built for women, but never shaped by
             them. The DELIA Model&trade; is what came out of that reset,
             and it&rsquo;s what Sense &amp; Forum&reg; is built on.
