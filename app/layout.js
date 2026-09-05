@@ -28,9 +28,9 @@ const ooohBaby = Oooh_Baby({
 
 const siteUrl = "https://senseandforum.com";
 
-const siteTitle = "Sense & Forum: Fractional CMO and Service Design";
+const siteTitle = "Sense & Forum: No-Nonsense Community-Led Marketing";
 const siteDescription =
-  "Fractional CMO services for founders who want senior marketing leadership without a full-time hire. Sense & Forum also designs community, programme and event systems: audits, rebuilds, and growth built on the Delia Model™, our approach to inclusion for everyone.";
+  "Sense & Forum® is a no-nonsense community-led marketing agency. We build the system, then help you run it: senior marketing leadership and community strategy, minus the full-time hire, built on the Delia Model™.";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
