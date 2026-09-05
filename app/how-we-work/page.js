@@ -42,6 +42,12 @@ export default function HowWeWorkPage() {
             </div>
           </div>
         ))}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/brand/photos/how-we-work-notes.jpg"
+          alt="Notes from an audit and review session"
+          className="content-image-wide"
+        />
       </section>
 
       <section className="proof">

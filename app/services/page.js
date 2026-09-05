@@ -25,6 +25,15 @@ export default function ServicesPage() {
         renting.
       </PageHero>
 
+      <section className="section wrap" style={{ paddingBottom: 0 }}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/brand/photos/services-notebook.jpg"
+          alt="Planning out a service engagement"
+          className="content-image"
+        />
+      </section>
+
       <section className="services">
         <div className="wrap">
           {services.map((service) => (
