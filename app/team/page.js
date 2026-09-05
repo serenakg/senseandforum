@@ -70,6 +70,12 @@ export default function TeamPage() {
           project manager, plus freelance specialists as needed: social,
           copy, events delivery, email marketing and production.
         </p>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/brand/photos/team-at-work.jpg"
+          alt="The team at work"
+          className="content-image"
+        />
         <div className="team-grid">
           {coreTeam.map((person) => (
             <div className="team-card confirmed" key={person.name}>

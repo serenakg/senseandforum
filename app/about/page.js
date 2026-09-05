@@ -64,6 +64,12 @@ export default function AboutPage() {
           audits and rebuilds that make room for real life, not just
           quarterly targets.
         </p>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/brand/photos/about-at-work.jpg"
+          alt="Working through a community strategy"
+          className="content-image"
+        />
       </section>
 
       <section className="section wrap" style={{ paddingTop: 0 }}>

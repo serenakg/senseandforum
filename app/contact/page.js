@@ -42,6 +42,12 @@ export default function ContactPage() {
       </section>
 
       <section className="section wrap">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/brand/photos/contact-desk.jpg"
+          alt="Sense & Forum, wherever the work happens"
+          className="content-image"
+        />
         <div className="contact-card contact-card-centered">
           <h2>Contact details</h2>
           <p>
