@@ -6,9 +6,9 @@ import AccentCircle from "@/components/AccentCircle";
 import { homeServices, stages, experienceLogos, awards } from "@/lib/content";
 
 export const metadata = {
-  title: "Sense & Forum: Fractional CMO and Service Design",
+  title: "Sense & Forum: No-Nonsense Community-Led Marketing",
   description:
-    "Fractional CMO services for founders who want senior marketing leadership without a full-time hire. Sense & Forum also designs community, programme and event systems: audits, rebuilds, and growth built on the Delia Model™.",
+    "Sense & Forum® is a no-nonsense community-led marketing agency. We build the system, then help you run it: senior marketing leadership and community strategy, minus the full-time hire, built on the Delia Model™.",
 };
 
 export default function Home() {
