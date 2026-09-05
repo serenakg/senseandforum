@@ -1755,8 +1755,9 @@ a.trust-bar-logo-card:focus-visible {
 .content-image {
   display: block;
   width: 100%;
-  max-width: 560px;
-  height: auto;
+  max-width: 760px;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   border-radius: 16px;
   margin: 40px auto;
 }
