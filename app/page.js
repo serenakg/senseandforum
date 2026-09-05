@@ -21,7 +21,7 @@ export default function Home() {
           <Label>Community-led marketing</Label>
           <h1>
             Sense &amp; Forum<span className="reg-mark">&reg;</span> is a{" "}
-            <em>community-led marketing agency</em>
+            <em>no-nonsense community-led marketing agency</em>
           </h1>
           <p>
             Reach that doesn&rsquo;t depend on an algorithm&rsquo;s mood. We
