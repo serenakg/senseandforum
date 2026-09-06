@@ -4,7 +4,7 @@ import { caseStudies, clientLogos } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Our Work",
+  title: "Our Work: Client Case Studies",
   description:
     "Real community and marketing engagements: how Sense & Forum helped Found & Flourish migrate their community and Her First Athletics launch Her Hudle.",
   path: "/work",

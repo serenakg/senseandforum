@@ -6,9 +6,9 @@ import { coreTeam, founderCredentials, roster } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Meet the Team",
+  title: "Meet the Team: Fractional CMO & Specialists",
   description:
-    "The core team behind Sense & Forum, and the story behind founder Serena Gasparini and the Delia Model™.",
+    "Meet the team behind Sense & Forum: founder Serena Gasparini, the Delia Model™, and the fractional CMOs and specialists who deliver the work.",
   path: "/team",
 });
 

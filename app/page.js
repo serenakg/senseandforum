@@ -8,7 +8,8 @@ import { homeServices, stages, experienceLogos, awards } from "@/lib/content";
 export const metadata = {
   title: "Sense & Forum: No-Nonsense Community-Led Marketing",
   description:
-    "Sense & Forum® is a no-nonsense community-led marketing agency. We build the system, then help you run it: senior marketing leadership and community strategy, minus the full-time hire, built on the Delia Model™.",
+    "Sense & Forum® is a no-nonsense community-led marketing agency: senior marketing leadership and community strategy, minus the full-time hire.",
+  alternates: { canonical: "https://senseandforum.com" },
 };
 
 export default function Home() {
