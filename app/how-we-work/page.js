@@ -4,9 +4,9 @@ import { stages, archetypes } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "How We Work",
+  title: "How We Work: Our Marketing Method",
   description:
-    "The Sense & Forum method: Audit, Redesign, Implement, Prove It. Plus the patterns we keep solving for across scale-ups, community organisations, one-off events and startups.",
+    "The Sense & Forum method: Audit and Review, Design, Implement, Prove It. The patterns we solve for across scale-ups, nonprofits, events and startups.",
   path: "/how-we-work",
 });
 

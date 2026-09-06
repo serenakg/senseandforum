@@ -3,7 +3,7 @@ import Label from "@/components/Label";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Contact",
+  title: "Contact: Book a Discovery Call",
   description:
     "Get in touch with Sense & Forum: send us a message about what you're working on, or find our contact details and location.",
   path: "/contact",

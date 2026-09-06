@@ -4,9 +4,9 @@ import { services } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Services",
+  title: "Services: Fractional CMO & Community Marketing",
   description:
-    "Four ways to work with Sense & Forum: Community/Engagement Audit + Redesign, Fractional Community/Growth Support, Build Your Community, Programme or Event, and Launch Partner fractional CMO work.",
+    "Four ways to work with Sense & Forum: audits, fractional community support, full community builds, and fractional CMO work for launches.",
   path: "/services",
 });
 

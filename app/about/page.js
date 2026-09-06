@@ -6,9 +6,9 @@ import { values } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "About",
+  title: "About: Community-Led Marketing Agency",
   description:
-    "Sense & Forum designs programmes, communities, events and marketing, and steps in as senior marketing leadership, with a specialism in femtech and female-led organisations. Built on the Delia Model™. Here's our story, our values, and who's building it.",
+    "Sense & Forum® is a no-nonsense community-led marketing agency with a specialism in femtech and female-led organisations. Here's our story and values.",
   path: "/about",
 });
 
