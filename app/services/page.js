@@ -16,7 +16,12 @@ export default function ServicesPage() {
       <PageHero
         bg="soft-pink"
         eyebrow="What we offer"
-        title="So how can Sense & Forum support you?"
+        title={
+          <>
+            So how can Sense &amp; Forum
+            <span className="reg-mark">&reg;</span> support you?
+          </>
+        }
         accentLeft="sun-amber"
         accentRight="mid-coral"
       >
