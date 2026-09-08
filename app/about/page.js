@@ -28,7 +28,7 @@ export default function AboutPage() {
         accentRight="hot-pink"
       >
         We work with people already doing good things, brands, communities,
-        teams, and help build the systems, structure and detail that let
+        teams, and build the systems, structure and detail that let
         that work land properly. Brand strategy, community architecture,
         the processes running quietly behind the scenes: we look at all of
         it, together.
