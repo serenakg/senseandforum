@@ -25,7 +25,7 @@ export default function ContactPage() {
       </PageHero>
 
       <section className="section wrap" style={{ paddingBottom: 0 }}>
-        <Label>Send us a message</Label>
+        <Label>Book a discovery call</Label>
         <h2>Tell us what you&rsquo;re working on</h2>
         <p className="lede">
           Fill out the form below and we&rsquo;ll route it to the right
@@ -33,8 +33,8 @@ export default function ContactPage() {
         </p>
         <div className="form-embed">
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSdP33no5Ksu7zq68RJdI0_DTdt-MwvzksSkKQ5bi1t4y3Ivcg/viewform?embedded=true"
-            title="Work with us form"
+            src="https://forms.gle/h2QPvd8PRaNFUNfWA"
+            title="Book a discovery call form"
           >
             Loading&hellip;
           </iframe>
