@@ -1157,6 +1157,78 @@ a.trust-bar-logo-card:focus-visible {
   font-weight: 600;
 }
 
+.svc-scope {
+  margin-top: 18px;
+  padding: 16px 20px;
+  background: var(--canvas);
+  border: 1px dashed var(--deep-green);
+  border-radius: 12px;
+}
+
+.svc-scope-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+
+.svc-scope ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.svc-scope li {
+  font-size: 14px;
+  line-height: 1.4;
+  padding-left: 16px;
+  position: relative;
+}
+
+.svc-scope li::before {
+  content: "\2013";
+  position: absolute;
+  left: 0;
+  opacity: 0.6;
+}
+
+.svc-investment {
+  margin-top: 40px;
+  padding: 28px 32px;
+  background: var(--amber-pale);
+  border: 1.5px solid var(--deep-green);
+  border-radius: 20px;
+}
+
+.svc-investment h3 {
+  margin-bottom: 10px;
+}
+
+.svc-investment p {
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 30px;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.faq-item p {
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
 .svc-fit {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
