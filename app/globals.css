@@ -299,11 +299,12 @@ button {
 }
 
 .why-accent {
-  bottom: -75px;
-  right: 6%;
-  width: 150px;
-  height: 150px;
-  opacity: 0.85;
+  bottom: -32px;
+  right: -32px;
+  width: 130px;
+  height: 130px;
+  opacity: 0.9;
+  z-index: 0;
 }
 
 .footer-accent {
@@ -858,9 +859,15 @@ a.trust-bar-logo-card:focus-visible {
   z-index: 1;
 }
 
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+
 .why h2 {
   font-size: 36px;
-  max-width: 680px;
   margin-bottom: 24px;
 }
 
@@ -874,15 +881,26 @@ a.trust-bar-logo-card:focus-visible {
   line-height: 1.7;
 }
 
+.video-wrap {
+  position: relative;
+}
+
 .video-embed {
   position: relative;
+  z-index: 1;
   width: 100%;
-  max-width: 680px;
   aspect-ratio: 16 / 9;
-  margin-top: 32px;
   border-radius: 12px;
   overflow: hidden;
   border: 2px solid var(--deep-green);
+  background: var(--canvas);
+}
+
+@media (max-width: 900px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
 }
 
 .video-embed iframe {
