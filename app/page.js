@@ -109,28 +109,32 @@ export default function Home() {
 
       {/* 5. Why we do it */}
       <section className="why" aria-labelledby="why-we-do-it-heading">
-        <AccentCircle left="soft-lime" right="soft-pink" className="why-accent" />
-        <div className="wrap">
-          <Label>Why we do it</Label>
-          <h2 id="why-we-do-it-heading">
-            Most engagement gaps aren&rsquo;t a <em>content issue</em>
-          </h2>
-          <p>
-            A quiet channel, a fading list, a workshop that fills once and
-            never comes back: most organisations reach for more posts, more
-            emails, more reminders. What&rsquo;s actually missing is the
-            design: specifically, who the format quietly excludes.
-            That&rsquo;s the inclusion lens we bring to every engagement,
-            built on the Delia Model&trade;: we notice what&rsquo;s easy to
-            miss, and build it into the redesign.
-          </p>
-          <div className="video-embed">
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/K6XhMgukAbE"
-              title="Sense & Forum"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            />
+        <div className="wrap why-grid">
+          <div className="why-text">
+            <Label>Why we do it</Label>
+            <h2 id="why-we-do-it-heading">
+              Most engagement gaps aren&rsquo;t a <em>content issue</em>
+            </h2>
+            <p>
+              A quiet channel, a fading list, a workshop that fills once and
+              never comes back: most organisations reach for more posts, more
+              emails, more reminders. What&rsquo;s actually missing is the
+              design: specifically, who the format quietly excludes.
+              That&rsquo;s the inclusion lens we bring to every engagement,
+              built on the Delia Model&trade;: we notice what&rsquo;s easy to
+              miss, and build it into the redesign.
+            </p>
+          </div>
+          <div className="video-wrap">
+            <AccentCircle left="soft-lime" right="soft-pink" className="why-accent" />
+            <div className="video-embed">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/K6XhMgukAbE"
+                title="Sense & Forum"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
           </div>
         </div>
       </section>
