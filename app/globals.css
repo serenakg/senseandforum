@@ -1830,6 +1830,7 @@ a.trust-bar-logo-card:focus-visible {
 /* Contact form */
 .form-embed {
   max-width: 700px;
+  margin: 0 auto;
   border: 1.5px solid var(--deep-green);
   border-radius: 20px;
   overflow: hidden;
