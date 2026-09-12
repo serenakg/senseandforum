@@ -26,7 +26,7 @@ export default function Home() {
           </h1>
           <p>
             Reach that doesn&rsquo;t depend on an algorithm&rsquo;s mood. We
-            build the system, then help you run it: senior marketing
+            build the system, then run it with you: senior marketing
             leadership and community strategy, minus the full-time hire, so
             nothing (and no one) gets missed.
           </p>
