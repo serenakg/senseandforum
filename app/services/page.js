@@ -1,12 +1,12 @@
 import PageHero from "@/components/PageHero";
 import Pill from "@/components/Pill";
-import { services } from "@/lib/content";
+import { services, servicesInvestmentNote, servicesFaqs } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Services: Fractional CMO & Community Marketing",
   description:
-    "Four ways to work with Sense & Forum: audits, fractional community support, full community builds, and fractional CMO work for launches.",
+    "Five ways to work with Sense & Forum: audits, fractional CMO retainers, growth support, full community builds, and launch partner work.",
   path: "/services",
 });
 
@@ -25,7 +25,7 @@ export default function ServicesPage() {
         accentLeft="sun-amber"
         accentRight="mid-coral"
       >
-        Four ways in, depending on how much you already know and how fast
+        Five ways in, depending on how much you already know and how fast
         you need to move. Community you own outperforms reach you&rsquo;re
         renting.
       </PageHero>
@@ -99,13 +99,37 @@ export default function ServicesPage() {
                   <div className="v">{service.price}</div>
                 </div>
               </div>
+              {service.howWeWork && (
+                <div className="svc-scope">
+                  <div className="svc-scope-label">How we work</div>
+                  <ul>
+                    {service.howWeWork.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </article>
           ))}
-          <p className="notice" style={{ marginTop: 30 }}>
-            Pricing shown is a benchmark estimate based on typical scope, not
-            a fixed quote. Every engagement is scoped to the work in front of
-            us.
-          </p>
+
+          <div className="svc-investment">
+            <h3>{servicesInvestmentNote.heading}</h3>
+            <p>{servicesInvestmentNote.body}</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section wrap faq">
+        <h2>
+          Frequently asked <em>questions</em>
+        </h2>
+        <div className="faq-list">
+          {servicesFaqs.map((item) => (
+            <div className="faq-item" key={item.q}>
+              <h3>{item.q}</h3>
+              <p>{item.a}</p>
+            </div>
+          ))}
         </div>
       </section>
 
