@@ -89,19 +89,10 @@ export default function ServicesPage() {
                   {service.closingNoteLinkHref && "."}
                 </p>
               )}
-              <div className="meta">
-                <div className="meta-item">
-                  <div className="k">Format</div>
-                  <div className="v">{service.format}</div>
-                </div>
-                <div className="meta-item">
-                  <div className="k">Pricing (benchmark)</div>
-                  <div className="v">{service.price}</div>
-                </div>
-              </div>
               {service.howWeWork && (
                 <div className="svc-scope">
                   <div className="svc-scope-label">How we work</div>
+                  <div className="svc-scope-format">{service.format}</div>
                   <ul>
                     {service.howWeWork.map((item) => (
                       <li key={item}>{item}</li>

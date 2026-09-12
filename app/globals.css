@@ -1174,6 +1174,12 @@ a.trust-bar-logo-card:focus-visible {
   margin-bottom: 8px;
 }
 
+.svc-scope-format {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
 .svc-scope ul {
   list-style: none;
   display: flex;
