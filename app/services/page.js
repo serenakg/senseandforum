@@ -72,8 +72,21 @@ export default function ServicesPage() {
                 </div>
               </div>
               {service.closingNote && (
-                <p className="desc" style={{ fontStyle: "italic" }}>
+                <p
+                  className="desc"
+                  style={{ fontStyle: "italic", textAlign: "center" }}
+                >
                   {service.closingNote}
+                  {service.closingNoteLinkHref && (
+                    <a
+                      href={service.closingNoteLinkHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {service.closingNoteLinkText}
+                    </a>
+                  )}
+                  {service.closingNoteLinkHref && "."}
                 </p>
               )}
               <div className="meta">
