@@ -1709,6 +1709,18 @@ a.trust-bar-logo-card:focus-visible {
   color: var(--deep-green);
 }
 
+.svc-full .desc a {
+  color: var(--hot-pink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  opacity: 1;
+}
+
+.svc-full .desc a:hover,
+.svc-full .desc a:focus-visible {
+  color: var(--deep-green);
+}
+
 /* Team / placeholder grid */
 .team-grid {
   display: grid;
