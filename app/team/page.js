@@ -8,7 +8,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Team: Serena Gasparini & Specialists",
   description:
-    "Meet the team behind Sense & Forum: founder Serena Gasparini, the Delia Model™, and the fractional CMOs and specialists who deliver the work.",
+    "Meet the team behind Sense & Forum: founder Serena Gasparini, the DELIA Model™, and the fractional CMOs and specialists who deliver the work.",
   path: "/team",
 });
 
