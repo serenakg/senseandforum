@@ -57,6 +57,10 @@ export default function ContactPage() {
             </a>
           </p>
           <p>Based in Pafos, Cyprus.</p>
+          <p>
+            We work globally and remotely, with clients across Australia,
+            the US, the EU and the UK.
+          </p>
         </div>
       </section>
     </>
