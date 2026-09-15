@@ -73,6 +73,26 @@ export default function AboutPage() {
       </section>
 
       <section className="section wrap" style={{ paddingTop: 0 }}>
+        <Label>Where we work</Label>
+        <h2>
+          Global by <em>design</em>
+        </h2>
+        <p className="lede">
+          Serena is Australian, based in Cyprus. She spent years living and
+          working in the UK for the Australian government before choosing a
+          life outside a big city. She holds multiple citizenships and
+          moves through the world as a global citizen, not tied to one
+          place.
+        </p>
+        <p className="lede">
+          Sense &amp; Forum&reg; works the same way: with clients across
+          Australia, the US, the EU and the UK, and a team hired globally
+          and built to work remotely. Time zones and borders don&rsquo;t
+          get in the way of how closely we work together.
+        </p>
+      </section>
+
+      <section className="section wrap" style={{ paddingTop: 0 }}>
         <Label>What sets us apart</Label>
         <h2>
           The Delia Model&trade;
