@@ -1872,6 +1872,30 @@ a.trust-bar-logo-card:focus-visible {
   margin-top: 30px;
 }
 
+.founder {
+  background: var(--amber-pale);
+  padding: 90px 32px;
+}
+
+.founder-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.founder-grid .founder-photo {
+  margin-top: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .founder-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
 .content-image {
   display: block;
   width: 100%;

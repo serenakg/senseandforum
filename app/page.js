@@ -5,11 +5,36 @@ import Marquee from "@/components/Marquee";
 import AccentCircle from "@/components/AccentCircle";
 import { homeServices, stages, experienceLogos, awards } from "@/lib/content";
 
+const title = "Sense & Forum: No-Nonsense Community-Led Marketing";
+const description =
+  "Sense & Forum® is a no-nonsense community-led marketing agency: senior marketing leadership and community strategy, minus the full-time hire.";
+
 export const metadata = {
-  title: "Sense & Forum: No-Nonsense Community-Led Marketing",
-  description:
-    "Sense & Forum® is a no-nonsense community-led marketing agency: senior marketing leadership and community strategy, minus the full-time hire.",
+  title,
+  description,
   alternates: { canonical: "https://senseandforum.com" },
+  openGraph: {
+    title,
+    description,
+    url: "https://senseandforum.com",
+    siteName: "Sense & Forum",
+    images: [
+      {
+        url: "/brand/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Sense & Forum",
+      },
+    ],
+    locale: "en_GB",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/brand/og-image.png"],
+  },
 };
 
 export default function Home() {
@@ -137,6 +162,31 @@ export default function Home() {
           <Pill href="/how-we-work" variant="ghost-dark">
             See the full method →
           </Pill>
+        </div>
+      </section>
+
+      {/* 6. Meet the founder */}
+      <section className="founder" aria-labelledby="meet-founder-heading">
+        <div className="wrap founder-grid">
+          <div className="founder-text">
+            <Label>Who&rsquo;s behind it</Label>
+            <h2 id="meet-founder-heading">Meet Serena Gasparini</h2>
+            <p className="lede">
+              Serena Gasparini founded Sense &amp; Forum&reg; and created
+              the DELIA Model&trade;, the methodology behind how we work.
+              Over 20 years in marketing, events and community led her
+              here.
+            </p>
+            <Pill href="/team" variant="ghost-dark">
+              Meet the team →
+            </Pill>
+          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/brand/team/serena.jpg"
+            alt="Serena Gasparini"
+            className="founder-photo"
+          />
         </div>
       </section>
 
