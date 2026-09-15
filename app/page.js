@@ -81,33 +81,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. How we do it */}
-      <section className="method" aria-labelledby="how-we-do-it-heading">
-        <div className="wrap">
-          <Label>How we do it</Label>
-          <h2 id="how-we-do-it-heading" className="visually-hidden">
-            How we do it
-          </h2>
-          <p className="lede">
-            Audit and review, then design, then implement, then prove it and
-            review it. Every engagement runs through the Delia Model&trade;:
-            we notice who a design leaves out, on purpose or by accident, and
-            design them back in from the start.
-          </p>
-          <div className="steps">
-            {stages.map((stage) => (
-              <StepCard key={stage.number} number={stage.number} title={stage.title}>
-                {stage.summary}
-              </StepCard>
-            ))}
-          </div>
-          <Pill href="/how-we-work" variant="ghost-dark">
-            See the full method →
-          </Pill>
-        </div>
-      </section>
-
-      {/* 5. Why we do it */}
+      {/* 4. Why we do it */}
       <section className="why" aria-labelledby="why-we-do-it-heading">
         <div className="wrap why-grid">
           <div className="why-text">
@@ -137,6 +111,32 @@ export default function Home() {
               />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* 5. How we do it */}
+      <section className="method" aria-labelledby="how-we-do-it-heading">
+        <div className="wrap">
+          <Label>How we do it</Label>
+          <h2 id="how-we-do-it-heading" className="visually-hidden">
+            How we do it
+          </h2>
+          <p className="lede">
+            Every engagement runs through{" "}
+            <a href="/team">Serena Gasparini&rsquo;s</a> DELIA Model&trade;,
+            the methodology behind how Sense &amp; Forum designs programmes,
+            communities and growth systems.
+          </p>
+          <div className="steps">
+            {stages.map((stage) => (
+              <StepCard key={stage.number} number={stage.number} title={stage.title}>
+                {stage.summary}
+              </StepCard>
+            ))}
+          </div>
+          <Pill href="/how-we-work" variant="ghost-dark">
+            See the full method →
+          </Pill>
         </div>
       </section>
 
