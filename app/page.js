@@ -121,8 +121,9 @@ export default function Home() {
               emails, more reminders. What&rsquo;s actually missing is the
               design: specifically, who the format quietly excludes.
               That&rsquo;s the inclusion lens we bring to every engagement,
-              built on the Delia Model&trade;: we notice what&rsquo;s easy to
-              miss, and build it into the redesign.
+              built on the Delia Model&trade;, the framework{" "}
+              <a href="/team">founder Serena Gasparini</a> created: we notice
+              what&rsquo;s easy to miss, and build it into the redesign.
             </p>
           </div>
           <div className="video-wrap">
