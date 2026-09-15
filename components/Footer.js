@@ -16,6 +16,13 @@ export default function Footer() {
         <a href="/work">Our Work</a>
         <a href="/team">Team</a>
         <a href="/contact">Contact</a>
+        <a
+          href="https://www.linkedin.com/company/sense-forum/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
       </nav>
       <nav className="footer-legal" aria-label="Legal">
         <a href="/terms">Terms and Conditions</a>
