@@ -13,7 +13,7 @@ const schema = {
       sameAs: ["https://www.linkedin.com/company/sense-forum/"],
       founder: { "@id": `${siteUrl}/#serena-gasparini` },
       description:
-        "A no-nonsense community-led marketing agency: senior marketing leadership and community strategy, minus the full-time hire, built on the DELIA Model™.",
+        "A no-nonsense community-led marketing agency: senior marketing leadership and community strategy, minus the full-time hire, built on the DELIA Model™, Serena Gasparini's methodology.",
     },
     {
       "@type": "Person",
@@ -22,7 +22,15 @@ const schema = {
       jobTitle: "Founder",
       worksFor: { "@id": `${siteUrl}/#organization` },
       description:
-        "Founder of Sense & Forum® and creator of the DELIA Model™, a framework for designing inclusive community and marketing systems.",
+        "Founder of Sense & Forum® and creator of the DELIA Model™, her methodology for designing inclusive community and marketing systems.",
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": `${siteUrl}/#delia-model`,
+      name: "The DELIA Model™",
+      creator: { "@id": `${siteUrl}/#serena-gasparini` },
+      description:
+        "Serena Gasparini's methodology for designing community and marketing systems that identify who a system leaves out, and design them back in from the start.",
     },
   ],
 };

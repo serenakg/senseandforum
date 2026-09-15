@@ -42,7 +42,7 @@ export default function AboutPage() {
         <p className="lede">
           Most organisations treat community and belonging like things that
           happen after the real work: a social page, an occasional event, a
-          channel nobody quite checks. Sense &amp; Forum&reg; started
+          channel nobody quite checks. Serena started Sense &amp; Forum&reg;
           because that gap was costing people the very audience
           they&rsquo;d worked hard to reach.
         </p>
@@ -99,15 +99,20 @@ export default function AboutPage() {
           The Delia Model&trade;
         </h2>
         <p className="lede">
+          The DELIA Model&trade; is{" "}
+          <a href="/team">Serena Gasparini&rsquo;s</a> methodology: how she
+          designs community and marketing systems so nothing gets missed.
+        </p>
+        <p className="lede">
           <em>No clipboard. No red pen. Just us, looking closely with
           care.</em>
         </p>
         <p className="lede">
-          Delia takes its name from the space{" "}
-          <a href="/team">Serena</a> wished existed when she started out:
-          a home for the founders, dreamers and doers building bold,
-          community-first brands, especially in femtech and social
-          impact, the ones mainstream playbooks tend to leave out.
+          Delia takes its name from the space Serena wished existed when
+          she started out: a home for the founders, dreamers and doers
+          building bold, community-first brands, especially in femtech
+          and social impact, the ones mainstream playbooks tend to leave
+          out.
         </p>
         <p className="lede">
           Most growth systems are built for the average user. We build for

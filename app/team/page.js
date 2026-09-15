@@ -34,7 +34,7 @@ export default function TeamPage() {
         <div>
           <p className="lede">
             Serena Gasparini founded Sense &amp; Forum&reg; and created the
-            DELIA Model&trade;, the framework behind{" "}
+            DELIA Model&trade;, her methodology behind{" "}
             <a href="/about">how we work</a>.
           </p>
           <p className="lede">
