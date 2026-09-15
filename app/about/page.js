@@ -2,7 +2,7 @@ import PageHero from "@/components/PageHero";
 import Label from "@/components/Label";
 import Pill from "@/components/Pill";
 import ValueIcon from "@/components/ValueIcon";
-import { values } from "@/lib/content";
+import { values, aboutFaqs } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
@@ -154,6 +154,20 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="section wrap faq">
+        <h2>
+          A little more <em>about Serena</em>
+        </h2>
+        <div className="faq-list">
+          {aboutFaqs.map((item) => (
+            <div className="faq-item" key={item.q}>
+              <h3>{item.q}</h3>
+              <p>{item.a}</p>
+            </div>
+          ))}
         </div>
       </section>
 
