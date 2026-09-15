@@ -10,6 +10,7 @@ const schema = {
       alternateName: "Sense & Forum®",
       url: siteUrl,
       logo: `${siteUrl}/brand/logo-black.svg`,
+      sameAs: ["https://www.linkedin.com/company/sense-forum/"],
       founder: { "@id": `${siteUrl}/#serena-gasparini` },
       description:
         "A no-nonsense community-led marketing agency: senior marketing leadership and community strategy, minus the full-time hire, built on the DELIA Model™.",
