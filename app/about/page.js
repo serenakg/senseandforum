@@ -6,9 +6,9 @@ import { values } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "About: Community-Led Marketing Agency",
+  title: "About: Founded by Serena Gasparini",
   description:
-    "Sense & Forum® is a no-nonsense community-led marketing agency with a specialism in femtech and female-led organisations. Here's our story and values.",
+    "Sense & Forum® is Serena Gasparini's no-nonsense community-led marketing agency, with a specialism in femtech and female-led organisations. Here's our story and values.",
   path: "/about",
 });
 
@@ -47,10 +47,11 @@ export default function AboutPage() {
           they&rsquo;d worked hard to reach.
         </p>
         <p className="lede">
-          Sense &amp; Forum&reg; is a community-led marketing agency.
-          Femtech and female-led organisations are where we&rsquo;ve built
-          the deepest track record. But the method works for anyone whose
-          growth depends on community, not just a media budget.
+          Sense &amp; Forum&reg; is Serena Gasparini&rsquo;s community-led
+          marketing agency. Femtech and female-led organisations are where
+          we&rsquo;ve built the deepest track record. But the method works
+          for anyone whose growth depends on community, not just a media
+          budget.
         </p>
         <p className="lede">
           We work with founders, teams and movements who want the next
@@ -102,11 +103,11 @@ export default function AboutPage() {
           care.</em>
         </p>
         <p className="lede">
-          Delia takes its name from the space Serena wished existed when
-          she started out: a home for the founders, dreamers and doers
-          building bold, community-first brands, especially in femtech
-          and social impact, the ones mainstream playbooks tend to leave
-          out.
+          Delia takes its name from the space{" "}
+          <a href="/team">Serena</a> wished existed when she started out:
+          a home for the founders, dreamers and doers building bold,
+          community-first brands, especially in femtech and social
+          impact, the ones mainstream playbooks tend to leave out.
         </p>
         <p className="lede">
           Most growth systems are built for the average user. We build for

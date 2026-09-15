@@ -2,6 +2,7 @@ import { Lora, Open_Sans, Oooh_Baby } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import OrganizationSchema from "@/components/OrganizationSchema";
 import "./globals.css";
 
 const lora = Lora({
@@ -70,6 +71,7 @@ export default function RootLayout({ children }) {
       className={`${lora.variable} ${openSans.variable} ${ooohBaby.variable}`}
     >
       <body>
+        <OrganizationSchema />
         <a className="skip-link" href="#main">
           Skip to content
         </a>
