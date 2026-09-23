@@ -92,6 +92,16 @@ export default function TeamPage() {
             </div>
           ))}
         </div>
+        <div style={{ textAlign: "center", marginTop: 32 }}>
+          <Pill
+            href="https://forms.gle/9xDEHmBBLhLNKAQf7"
+            variant="ghost-dark"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Work with us
+          </Pill>
+        </div>
       </section>
 
       <section className="directory">
@@ -119,7 +129,12 @@ export default function TeamPage() {
         <h2>
           Know someone who should be <em>on this list?</em>
         </h2>
-        <Pill href="/contact" variant="solid-green">
+        <Pill
+          href="https://forms.gle/9xDEHmBBLhLNKAQf7"
+          variant="solid-green"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Get in touch
         </Pill>
       </section>
