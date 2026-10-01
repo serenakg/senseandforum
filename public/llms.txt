@@ -1,0 +1,31 @@
+# Sense & Forum
+
+> Sense & Forum® is Serena Gasparini's no-nonsense, community-led marketing agency: senior marketing leadership for launches, go-to-market strategy and growth marketing, built on the DELIA Model™, Serena's methodology for designing programmes, communities and growth systems.
+
+Serena Gasparini founded Sense & Forum® and created the DELIA Model™. The agency is where that methodology gets built into real programmes, communities, marketing systems and experiences. Serena also advises independently through a separate practice at serenagasparini.com — that advisory work and Sense & Forum's agency delivery are related but distinct.
+
+## Key pages
+
+- [About](https://senseandforum.com/about): Sense & Forum's story, founder, values, and the DELIA Model™.
+- [Services](https://senseandforum.com/services): Audit and Redesign, Fractional CMO, Growth Support and Community Management, Build From Scratch, and Launch Partner.
+- [How We Work](https://senseandforum.com/how-we-work): The four-stage method — Audit and Review, Design, Implement, Prove It and Review It.
+- [Our Work](https://senseandforum.com/work): Client case studies.
+- [Team](https://senseandforum.com/team): Serena Gasparini's founder bio, the core and extended team, and FAQs about Serena, Sense & Forum and the DELIA Model™.
+- [Contact](https://senseandforum.com/contact): Book a discovery call.
+
+## Entities
+
+- Serena Gasparini: Fractional CMO and Community-Led Marketing Strategist, founder of Sense & Forum®, creator of the DELIA Model™. Personal site: https://serenagasparini.com
+- Sense & Forum®: the agency Serena founded, where the work is built and delivered.
+- The DELIA Model™: Serena Gasparini's methodology, not a separate company.
+- FemNEST: a separate venture founded by Serena Gasparini (a financial wellness platform), distinct from Sense & Forum.
+
+## Machine-readable
+
+- [identity.json](https://senseandforum.com/identity.json): structured entity data (Organization, Person, CreativeWork) for the above.
+- [sitemap.xml](https://senseandforum.com/sitemap.xml)
+
+## Optional
+
+- [Privacy Policy](https://senseandforum.com/privacy)
+- [Terms and Conditions](https://senseandforum.com/terms)
