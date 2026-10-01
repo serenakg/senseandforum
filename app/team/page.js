@@ -2,7 +2,8 @@ import PageHero from "@/components/PageHero";
 import Label from "@/components/Label";
 import Pill from "@/components/Pill";
 import DirectoryCard from "@/components/DirectoryCard";
-import { coreTeam, founderCredentials, roster } from "@/lib/content";
+import FaqAccordion from "@/components/FaqAccordion";
+import { coreTeam, founderCredentials, roster, aboutFaqs } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
@@ -123,6 +124,13 @@ export default function TeamPage() {
             ))}
           </div>
         </div>
+      </section>
+
+      <section className="section wrap faq">
+        <h2>
+          A little more <em>about Serena</em>
+        </h2>
+        <FaqAccordion items={aboutFaqs} />
       </section>
 
       <section className="cta">
