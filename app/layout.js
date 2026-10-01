@@ -31,7 +31,7 @@ const siteUrl = "https://senseandforum.com";
 
 const siteTitle = "Sense & Forum: No-Nonsense Community-Led Marketing";
 const siteDescription =
-  "Sense & Forum® is a no-nonsense community-led marketing agency. We build the system, then run it with you: senior marketing leadership and community strategy, minus the full-time hire, built on the DELIA Model™.";
+  "Sense & Forum® is a no-nonsense community-led marketing agency. We build the system, then run it with you: senior marketing leadership and community strategy, scaled to what you actually need, built on the DELIA Model™.";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),

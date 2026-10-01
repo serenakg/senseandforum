@@ -13,7 +13,7 @@ const schema = {
       sameAs: ["https://www.linkedin.com/company/sense-forum/"],
       founder: { "@id": `${siteUrl}/#serena-gasparini` },
       description:
-        "A no-nonsense community-led marketing agency: senior marketing leadership and community strategy, minus the full-time hire, built on the DELIA Model™, Serena Gasparini's methodology.",
+        "A no-nonsense community-led marketing agency: senior marketing leadership and community strategy, scaled to what you actually need, built on the DELIA Model™, Serena Gasparini's methodology.",
     },
     {
       "@type": "Person",
