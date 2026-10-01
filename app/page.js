@@ -183,8 +183,8 @@ export default function Home() {
           </div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/brand/team/serena.jpg"
-            alt="Serena Gasparini"
+            src="/brand/team/serena-event.jpg"
+            alt="Serena Gasparini speaking at an event"
             className="founder-photo"
           />
         </div>
