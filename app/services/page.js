@@ -1,5 +1,6 @@
 import PageHero from "@/components/PageHero";
 import Pill from "@/components/Pill";
+import FaqAccordion from "@/components/FaqAccordion";
 import { services, servicesInvestmentNote, servicesFaqs } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
@@ -114,14 +115,7 @@ export default function ServicesPage() {
         <h2>
           Frequently asked <em>questions</em>
         </h2>
-        <div className="faq-list">
-          {servicesFaqs.map((item) => (
-            <div className="faq-item" key={item.q}>
-              <h3>{item.q}</h3>
-              <p>{item.a}</p>
-            </div>
-          ))}
-        </div>
+        <FaqAccordion items={servicesFaqs} />
       </section>
 
       <section className="cta">

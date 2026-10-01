@@ -43,7 +43,7 @@ function FaqItem({ item, id }) {
 
 export default function FaqAccordion({ items }) {
   return (
-    <div className="faq-list accordion">
+    <div className="faq-list">
       {items.map((item, i) => (
         <FaqItem key={item.q} item={item} id={`faq-answer-${i}`} />
       ))}
