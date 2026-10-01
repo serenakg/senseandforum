@@ -7,7 +7,7 @@ import { homeServices, stages, experienceLogos, awards } from "@/lib/content";
 
 const title = "Sense & Forum: No-Nonsense Community-Led Marketing";
 const description =
-  "Sense & Forum® is a no-nonsense community-led marketing agency: senior marketing leadership and community strategy, minus the full-time hire.";
+  "Sense & Forum® is a no-nonsense community-led marketing agency: senior marketing leadership for launches, go-to-market strategy and growth marketing, built around the community doing the work.";
 
 export const metadata = {
   title,
@@ -52,8 +52,9 @@ export default function Home() {
           <p>
             Reach that doesn&rsquo;t depend on an algorithm&rsquo;s mood. We
             build the system, then run it with you: senior marketing
-            leadership and community strategy, minus the full-time hire, so
-            nothing (and no one) gets missed.
+            leadership across launch, go-to-market and growth, alongside
+            community strategy &mdash; fractional by design, so nothing (and
+            no one) gets missed.
           </p>
           <div className="actions">
             <Pill href="/contact" variant="solid">
