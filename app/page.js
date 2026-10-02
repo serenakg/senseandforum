@@ -122,7 +122,7 @@ export default function Home() {
               design: specifically, who the format quietly excludes.
               That&rsquo;s the inclusion lens we bring to every engagement,
               built on the Delia Model&trade;, the methodology{" "}
-              <a href="/team">founder Serena Gasparini</a> created: we notice
+              <a href="/team">founder Serena Kara Gasparini</a> created: we notice
               what&rsquo;s easy to miss, and build it into the redesign.
             </p>
           </div>
@@ -149,7 +149,7 @@ export default function Home() {
           </h2>
           <p className="lede">
             Every engagement runs through{" "}
-            <a href="/team">Serena Gasparini&rsquo;s</a> DELIA Model&trade;,
+            <a href="/team">Serena Kara Gasparini&rsquo;s</a> DELIA Model&trade;,
             the methodology behind how Sense &amp; Forum designs programmes,
             communities and growth systems.
           </p>
@@ -171,9 +171,9 @@ export default function Home() {
         <div className="wrap founder-grid">
           <div className="founder-text">
             <Label>Who&rsquo;s behind it</Label>
-            <h2 id="meet-founder-heading">Meet Serena Gasparini</h2>
+            <h2 id="meet-founder-heading">Meet Serena Kara Gasparini</h2>
             <p className="lede">
-              Serena Gasparini founded Sense &amp; Forum&reg; and created
+              Serena Kara Gasparini founded Sense &amp; Forum&reg; and created
               the DELIA Model&trade;, the methodology behind how we work.
               Over 20 years in marketing, events and community led her
               here.
@@ -185,7 +185,7 @@ export default function Home() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/brand/team/serena-event.jpg"
-            alt="Serena Gasparini speaking at an event"
+            alt="Serena Kara Gasparini speaking at an event"
             className="founder-photo"
           />
         </div>

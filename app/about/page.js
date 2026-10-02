@@ -6,9 +6,9 @@ import { values } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "About: Founded by Serena Gasparini",
+  title: "About: Founded by Serena Kara Gasparini",
   description:
-    "Sense & Forum® is Serena Gasparini's no-nonsense community-led marketing agency, with a specialism in femtech and female-led organisations. Here's our story and values.",
+    "Sense & Forum® is Serena Kara Gasparini's no-nonsense community-led marketing agency, with a specialism in femtech and female-led organisations. Here's our story and values.",
   path: "/about",
 });
 
@@ -47,7 +47,7 @@ export default function AboutPage() {
           they&rsquo;d worked hard to reach.
         </p>
         <p className="lede">
-          Sense &amp; Forum&reg; is Serena Gasparini&rsquo;s community-led
+          Sense &amp; Forum&reg; is Serena Kara Gasparini&rsquo;s community-led
           marketing agency. Femtech and female-led organisations are where
           we&rsquo;ve built the deepest track record. But the method works
           for anyone whose growth depends on community, not just a media
@@ -100,8 +100,11 @@ export default function AboutPage() {
         </h2>
         <p className="lede">
           The DELIA Model&trade; is{" "}
-          <a href="/team">Serena Gasparini&rsquo;s</a> methodology: how she
+          <a href="/team">Serena Kara Gasparini&rsquo;s</a> methodology: how she
           designs community and marketing systems so nothing gets missed.
+          DELIA stands for Diverse, Emotionally Safe, Life-Centred,
+          Inclusive, Accessible: the five things she checks for in every
+          system she builds.
         </p>
         <p className="lede">
           <em>No clipboard. No red pen. Just us, looking closely with

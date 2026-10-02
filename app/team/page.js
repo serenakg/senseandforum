@@ -7,9 +7,9 @@ import { coreTeam, founderCredentials, roster, aboutFaqs } from "@/lib/content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Team: Serena Gasparini & Specialists",
+  title: "Team: Serena Kara Gasparini & Specialists",
   description:
-    "Meet the team behind Sense & Forum: founder Serena Gasparini, the DELIA Model™, and the fractional CMOs and specialists who deliver the work.",
+    "Meet the team behind Sense & Forum: founder Serena Kara Gasparini, the DELIA Model™, and the fractional CMOs and specialists who deliver the work.",
   path: "/team",
 });
 
@@ -30,12 +30,13 @@ export default function TeamPage() {
       <section className="section wrap">
         <Label>Meet the founder</Label>
         <h2>
-          Serena Gasparini: the story behind <em>the Delia Model&trade;</em>
+          Serena Kara Gasparini: the story behind <em>the Delia Model&trade;</em>
         </h2>
         <div>
           <p className="lede">
-            Serena Gasparini founded Sense &amp; Forum&reg; and created the
-            DELIA Model&trade;, her methodology behind{" "}
+            Serena Kara Gasparini founded Sense &amp; Forum&reg; and created the
+            DELIA Model&trade; (Diverse, Emotionally Safe, Life-Centred,
+            Inclusive, Accessible), her methodology behind{" "}
             <a href="/about">how we work</a>.
           </p>
           <p className="lede">
@@ -62,7 +63,7 @@ export default function TeamPage() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/brand/team/serena.jpg"
-            alt="Serena Gasparini"
+            alt="Serena Kara Gasparini"
             className="founder-photo"
           />
         </div>
