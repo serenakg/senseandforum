@@ -37,8 +37,8 @@ Created by Serena Kara Gasparini, it underpins the work delivered through Sense 
 
 ## Website
 
-https://www.senseandforum.com
+https://senseandforum.com
 
 ## Machine-readable
 
-https://www.senseandforum.com/identity.json
+https://senseandforum.com/identity.json

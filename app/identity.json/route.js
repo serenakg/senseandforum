@@ -1,7 +1,7 @@
-import { schema } from "@/lib/schema";
+import { identity } from "@/lib/identity";
 
 export const dynamic = "force-static";
 
 export function GET() {
-  return Response.json(schema);
+  return Response.json(identity);
 }
