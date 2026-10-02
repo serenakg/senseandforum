@@ -1,31 +1,44 @@
-# Sense & Forum
+# Sense & Forum®
 
-> Sense & Forum® is Serena Gasparini's no-nonsense, community-led marketing agency: senior marketing leadership for launches, go-to-market strategy and growth marketing, built on the DELIA Model™, Serena's methodology for designing programmes, communities and growth systems.
+> Sense & Forum® is a no-nonsense community-led marketing consultancy founded by Serena Kara Gasparini. We design community-led growth systems and provide senior marketing leadership across launch, go-to-market and growth.
 
-Serena Gasparini founded Sense & Forum® and created the DELIA Model™. The agency is where that methodology gets built into real programmes, communities, marketing systems and experiences. Serena also advises independently through a separate practice at serenagasparini.com — that advisory work and Sense & Forum's agency delivery are related but distinct.
+Sense & Forum works with founders, startups and organisations to create marketing, community and growth systems that work for the people using them. Services include Fractional CMO support, community strategy, audits and redesign, building from scratch, and launch partnerships for startups and scale-ups entering new markets.
 
-## Key pages
+Every engagement is underpinned by The DELIA Model™, the methodology created by founder Serena Kara Gasparini for designing programmes, communities and growth systems that hold women instead of asking them to fit in.
 
-- [About](https://senseandforum.com/about): Sense & Forum's story, founder, values, and the DELIA Model™.
-- [Services](https://senseandforum.com/services): Audit and Redesign, Fractional CMO, Growth Support and Community Management, Build From Scratch, and Launch Partner.
-- [How We Work](https://senseandforum.com/how-we-work): The four-stage method — Audit and Review, Design, Implement, Prove It and Review It.
-- [Our Work](https://senseandforum.com/work): Client case studies.
-- [Team](https://senseandforum.com/team): Serena Gasparini's founder bio, the core and extended team, and FAQs about Serena, Sense & Forum and the DELIA Model™.
-- [Contact](https://senseandforum.com/contact): Book a discovery call.
+FemNEST, a financial wellness platform, is a separate venture founded by Serena Kara Gasparini and is not part of Sense & Forum.
 
-## Entities
+## Founder
 
-- Serena Gasparini: Fractional CMO and Community-Led Marketing Strategist, founder of Sense & Forum®, creator of the DELIA Model™. Personal site: https://serenagasparini.com
-- Sense & Forum®: the agency Serena founded, where the work is built and delivered.
-- The DELIA Model™: Serena Gasparini's methodology, not a separate company.
-- FemNEST: a separate venture founded by Serena Gasparini (a financial wellness platform), distinct from Sense & Forum.
+Serena Kara Gasparini
+https://serenagasparini.com
+
+Serena is a Fractional CMO and Community-Led Marketing Strategist with two decades of experience across marketing, events and community. She founded Sense & Forum® and created The DELIA Model™.
+
+## Services
+
+- Fractional CMO
+- Community-Led Marketing
+- Community Strategy
+- Audit and Redesign
+- Go-to-Market Strategy
+- Launch Partner
+- Building Communities From Scratch
+- Growth Marketing
+- Product and Service Launches
+- Entering New Markets
+- Programme and Community Design
+
+## Methodology
+
+The DELIA Model™: Diverse, Emotionally Safe, Life-Centred, Inclusive, Accessible.
+
+Created by Serena Kara Gasparini, it underpins the work delivered through Sense & Forum® and the work Serena advises on directly.
+
+## Website
+
+https://www.senseandforum.com
 
 ## Machine-readable
 
-- [identity.json](https://senseandforum.com/identity.json): structured entity data (Organization, Person, CreativeWork) for the above.
-- [sitemap.xml](https://senseandforum.com/sitemap.xml)
-
-## Optional
-
-- [Privacy Policy](https://senseandforum.com/privacy)
-- [Terms and Conditions](https://senseandforum.com/terms)
+https://www.senseandforum.com/identity.json
